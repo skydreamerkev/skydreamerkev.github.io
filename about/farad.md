@@ -27,6 +27,5 @@ Farad并不存在，TA是一个符号。是只存在于网络中的化身。TA�
 
 ## 如何找到 Farad
 
-半次元：[Farad法拉](https://bcy.net/u/954030853732910)$~~~$
-Lofter: [Farad法拉](https://farad314.lofter.com/)$~~~$
-Github: [Farad314](https://github.com/farad314)
+[半次元](https://bcy.net/u/954030853732910)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Lofter](https://farad314.lofter.com/)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Github](https://github.com/farad314)
