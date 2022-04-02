@@ -1,0 +1,93 @@
+<div id="ccblock">
+<style>
+    #CClink {
+      display: inline;
+    }
+    #CClink img {
+      height: 22px !important;
+      margin-left: 3px;
+      vertical-align: text-bottom;
+      display: none;
+    }
+</style>
+<p
+  xmlns:cc="http://creativecommons.org/ns#"
+  xmlns:dct="http://purl.org/dc/terms/"
+>
+  {% if page.layout == "functional" %}
+    若无额外声明， <a
+    property="dct:title"
+    rel="cc:attributionURL"
+    href="/"
+  >
+    本站
+  </a>内所有文字/图像/声音/视频
+  {% else %}
+  <a
+    property="dct:title"
+    rel="cc:attributionURL"
+    href="{{ page.cc-link | default: page.url }}"
+  >
+    {{ page.cc-name | default: "本文" }}
+  </a>
+  {% endif %} 均采用
+  <a
+    href="http://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh?ref=chooser-v1"
+    target="_blank"
+    rel="license noopener noreferrer"
+    id="CClink"
+  >
+    CC <span id="cctype"></span> 4.0
+    <span class="no-print">
+    <img
+      src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"
+      alt="CC icon"
+    />
+    <img
+      src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"
+      alt="CC BY icon"
+      id='ccby'
+    />
+    <img
+      src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1"
+      alt="CC NC icon"
+      id="ccnc"
+    />
+    <img
+      src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1"
+      alt="CC SA icon"
+      id="ccsa"
+    />
+    <img
+      src="https://mirrors.creativecommons.org/presskit/icons/nd.svg?ref=chooser-v1"
+      alt="CC ND icon"
+      id="ccnd"
+    />
+    </span>
+  </a>
+  协议进行授权。
+  <span class="printonly">
+    要查看此许可证的副本，请访问
+    <span id="cc-link"></span>
+  </span>
+</p>
+</div>
+<script>
+  cctype = '{{ page.cc-type | "by-nc-sa" }}'
+
+  // Filter invalid types
+  if(!(["by","by-sa","by-nd","by-nc","by-nc-sa","by-nc-nd","cr"].includes(cctype))) cctype="by-nc-sa";
+
+  // If reserved Copyright
+  if(cctype=="cr") document.getElementById("ccblock").innerHTML="Copyright 2022 farad314.github.io Farad 法拉 版权所有"
+
+  // If CC
+  document.getElementById("CClink").href="http://creativecommons.org/licenses/"+cctype+"/4.0/deed.zh?ref=chooser-v1"
+  document.getElementById("cc-link").innerText="http://creativecommons.org/licenses/"+cctype+"/4.0/deed.zh?ref=chooser-v1"
+  icons=["by","sa","nd","nc"]
+  for (let i = 0; i < icons.length; i++) {
+    const icon = icons[i];
+    if(cctype.search(icon) != -1) document.getElementById("cc"+icon).style.display="inline";
+  }
+  document.getElementById("cctype").innerText=cctype.toUpperCase()
+</script>

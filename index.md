@@ -1,37 +1,29 @@
-## Welcome to GitHub Pages
+---
+layout: functional
+title: 主页
+---
+## 作品
 
-You can use the [editor on GitHub](https://github.com/farad314/farad314.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
+[安全出口](/done/The-Emergency-exit.html)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+~~[泡沫](/done/Apart.html)~~$~~~$
+将于2022/5/5发布
 
-### Markdown
+## 杂谈
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+[有关《安全出口》。。。](/discuss/about-TEe.html)
 
-```markdown
-Syntax highlighted code block
+## 正在创作
 
-# Header 1
-## Header 2
-### Header 3
+> 注意！所有未完成作品若无额外声明则保留完整著作权！禁止包括但不限于任何形式的二次创作和再分发！
 
-- Bulleted
-- List
+[Gott ist tot](/writing/Gott-ist-tot.html)
 
-1. Numbered
-2. List
+## 草案
 
-**Bold** and _Italic_ and `Code` text
+> 注意！所有未完成作品若无额外声明则保留完整著作权！禁止包括但不限于任何形式的二次创作和再分发！
 
-[Link](url) and ![Image](src)
-```
+[棱镜](/spark/The-prism.html)$~~~$
+这一篇使用CC BY-NC-SA授权，附加要求：若使用，则需告知原作者
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/farad314/farad314.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+~~[蜂巢](/spark/Honeycomb.html)~~ ， ~~[胶卷](/spark/The-film.html)~~ 两篇已被隐藏
