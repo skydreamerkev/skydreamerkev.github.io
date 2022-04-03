@@ -4,6 +4,7 @@
 // This is to prevent errors from being reported in the editor
 
 @import "{{ site.theme }}";
+@import "variables";
 
 // Print adaptation
 .printonly {
@@ -36,6 +37,26 @@
     background-color: #787878
 }
 
+.page-header {
+    background-color: $header-bg-color;
+    background-image: linear-gradient(90deg,
+    $header-bg-color-secondary,
+    $header-bg-color,
+    $header-bg-color-secondary,
+    $header-bg-color);
+    background-size: 300% 100%;
+    animation: bgmove 30s linear infinite both;
+}
+
+@keyframes bgmove {
+    0%{
+        background-position-x: 0px;
+    }
+    100%{
+        background-position-x: 100%;
+    }
+}
+
 // Dark Theme
 @media (prefers-color-scheme: dark) {
 
@@ -47,7 +68,7 @@
     .page-header {
         color: #e8e6e3;
         background-color: #117a46;
-        background-image: linear-gradient(120deg, #11467a, #117a46);
+        background-image: linear-gradient(90deg, #11467a, #117a46, #11467a, #117a46);
     }
 
     // Scrollbar
