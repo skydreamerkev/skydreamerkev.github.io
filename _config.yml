@@ -3,17 +3,3 @@ theme: jekyll-theme-cayman
 
 title: 法拉的小说
 description: 法拉的小说
-
-nav:
-  done:
-    The-Emergency-exit: 应急出口
-    #Apart: 泡沫（已隐藏）
-  discuss:
-    about-TEe: 关于《应急出口》。。。
-  writing:
-    Gott-ist-tot: Gott ist tot(上帝已死)
-  spark:
-    The-prism: 棱镜
-
-darkimg:
- - The-Emergency-exit
