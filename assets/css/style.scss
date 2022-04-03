@@ -3,27 +3,6 @@
 .color-inherit{color: inherit;}
 // This is to prevent errors from being reported in the editor
 
-// Imports (Usage: Nav )
-@import "variables";
-
-@mixin large {
-    @media screen and (min-width: #{$large-breakpoint}) {
-        @content;
-    }
-}
-
-@mixin medium {
-    @media screen and (min-width: #{$medium-breakpoint}) and (max-width: #{$large-breakpoint}) {
-        @content;
-    }
-}
-
-@mixin small {
-    @media screen and (max-width: #{$medium-breakpoint}) {
-        @content;
-    }
-}
-
 @import "{{ site.theme }}";
 
 // Print adaptation
@@ -66,9 +45,9 @@
         color: #a69e93;
     }
     .page-header {
-        color: rgb(232, 230, 227);
-        background-color: rgb(17, 122, 70);
-        background-image: linear-gradient(120deg, rgb(17, 70, 122), rgb(17, 122, 70));
+        color: #e8e6e3;
+        background-color: #117a46;
+        background-image: linear-gradient(120deg, #11467a, #117a46);
     }
 
     // Scrollbar
@@ -83,38 +62,5 @@
     }
     ::-webkit-scrollbar-corner {
         background-color: #181a1b;
-    }
-}
-
-// Nav (Override default)
-
-.page-header {
-    @include large {
-        padding: 0rem 6rem 5rem 6rem;
-    }
-
-    @include medium {
-        padding: 0rem 4rem 3rem 4rem;
-    }
-
-    @include small {
-        padding: 0rem 1rem 2rem 1rem;
-    }
-}
-
-.page-header > nav {
-    @include large {
-        height: 2rem;
-        margin-bottom: 3rem;
-    }
-
-    @include medium {
-        height: 3rem;
-        margin: 0 0;
-    }
-
-    @include small {
-        height: 3rem;
-        margin: 0 0;
     }
 }
