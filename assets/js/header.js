@@ -1,4 +1,4 @@
-obj = document.body;
+body = document.body;
 
 // Scroll animation
 
