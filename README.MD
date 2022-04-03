@@ -111,6 +111,7 @@ cc-type可用值列表：["by","by-sa","by-nd","by-nc","by-nc-sa","by-nc-nd","cr
 |head-custom|自定义头信息|defaultHead|将被合并至defaultHead中|
 |likeDisabled|推荐禁用提示|页尾||
 |Liketemple|展示推荐功能|页尾|未完成|
+|profiles/(name)|特殊页面的独立配置|MD文件末尾|应[MD033](https://github.com/DavidAnson/markdownlint/blob/v0.25.1/doc/Rules.md#md033)要求，将应用于特殊页面的HTML做成模板|
 
 ## 版式列表与功能简介
 
