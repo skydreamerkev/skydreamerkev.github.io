@@ -3,7 +3,7 @@ layout: functional
 title: 关于本站
 ---
 
-## 本站基于 Github Pages
+## 本站基于 Github Pages {#Powered-by-Jekyll}
 
 本站基于 Github Pages ，使用 Jekyll 生成。
 
