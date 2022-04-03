@@ -2,9 +2,16 @@
 layout: functional
 title: 关于本站
 ---
+
+## 本站基于 Github Pages
+
+本站基于 Github Pages ，使用 Jekyll 生成。
+
+应 Jekyll 使用的 MIT 协议要求，我们在每一页末尾都添加了`此页面使用 jekyll 生成。`字样。
+
 ## 关于站主 Farad
 
-详见[关于Farad](/about/farad.html)。
+详见[关于 Farad](/about/farad.html)。
 
 ---
 
