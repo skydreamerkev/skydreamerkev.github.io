@@ -50,6 +50,7 @@
   justify-content: flex-end;
   align-items: baseline;
   position: fixed;
+  width: 100vw;
   --max-height: 75vh;
 
   @include large {
@@ -64,15 +65,20 @@
     padding: 2rem 2rem;
     --min-height: 6.5rem;
   }
+  /*
   --dis: calc(var(--max-height) - var(--min-height));
   --percent: calc(var(--scroll-ani) / var(--dis));
-  --percent-limited: calc((var(--percent) - 1 - abs(var(--percent) - 1)) / 2 + 1)
+  --percent-limited: calc((var(--percent) - 1 - abs(var(--percent) - 1)) / 2 + 1);
   /*
     If percent > 1, percent-limited = 1,
     If percent < 1, percent-limited = percent,
     Percent cannot be less than 0.
-  */
+  *\/
   height: calc(var(--max-height) - var(--dis) * var(--percent-limited));
+
+  It doesn't work.
+  */
+  height: var(--max-height);
 }
 
 .project-name {
