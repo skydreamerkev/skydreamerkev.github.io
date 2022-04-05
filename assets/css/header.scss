@@ -51,7 +51,7 @@
   align-items: baseline;
   // position: fixed;
   position: absolute;
-  width: 100vw;
+  width: 100%;
   --max-height: 25vh;
 
   @include large {
