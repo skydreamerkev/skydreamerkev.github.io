@@ -8,7 +8,7 @@
 
 未来可能会把不包括作品在内的部分网站源码作为独立分支开源。
 
-The LICENCE file of this repository has been removed to protect the copyright of the novels, and ww reserved full copyright of all contents of this repository retain unless otherwise stated within the page.
+The LICENCE file of this repository has been removed to protect the copyright of the novels, and we reserved full copyright of all contents of this repository retain unless otherwise stated within the page.
 
 Some of the website source code that does not include the novels may be open sourced as a separate branch in the future.
 
