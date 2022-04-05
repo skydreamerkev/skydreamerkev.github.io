@@ -49,8 +49,8 @@
   align-content: flex-start;
   justify-content: flex-end;
   align-items: baseline;
-  position: fixed;
-  // position: absolute;
+  // position: fixed;
+  position: absolute;
   width: 100vw;
   --max-height: 25vh;
 
@@ -67,12 +67,12 @@
     padding: 2rem 2rem;
     --min-height: 6.5rem;
   }
-
+  /*/ Scroll animation
   --dis: calc(var(--max-height) - var(--min-height));
   --transition-var: calc(var(--scroll-ani) - var(--dis));
   --output: calc(0 - ((var(--transition-var) - abs(var(--transition-var))) / 2));
   height: calc(var(--max-height) - var(--output));
-  // height: var(--max-height);
+  /**/ height: var(--max-height);
 
 }
 
