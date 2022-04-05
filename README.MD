@@ -87,6 +87,7 @@ Some of the website source code that does not include the novels may be open sou
 |:---|:---|:---|:---|
 |no-like|禁用推荐|novel版式页面|仅布尔值|
 |footer|页脚信息|novel/function版式页面||
+|time|写作时间|novel版式页面|格式 YY/MM/DD HH:MM|
 
 #### 版权类
 

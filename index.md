@@ -22,6 +22,14 @@ title: 主页
 
 > 注意！所有未完成作品若无额外声明则保留完整著作权！禁止包括但不限于任何形式的二次创作和再分发！
 
-[棱镜](/spark/The-prism.html)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;这一篇使用CC BY-NC-SA授权，附加要求：若使用，则需告知原作者
+~~[试作乌托邦（暂名）](/spark/Experimental-Utopia.md)~~&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;未完成介绍，等待上传中
 
-~~[蜂巢](/spark/Honeycomb.html)~~ ， ~~[胶卷](/spark/The-film.html)~~ 两篇已被隐藏
+~~[蜂巢](/spark/Honeycomb.html)~~ ， ~~[胶卷](/spark/The-film.html)~~ 作为草案储备已封存
+
+(提醒一句，已封存内容在Git记录里是查不到的，因为加到了.gitignore里，根本不会上传)
+
+-----
+
+### 共享草案
+
+[棱镜](/spark/The-prism.html)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;这一篇使用CC BY-NC-SA授权，附加要求：若使用，则需告知原作者
