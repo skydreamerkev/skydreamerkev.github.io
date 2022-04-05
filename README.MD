@@ -29,7 +29,7 @@ Some of the website source code that does not include the novels may be open sou
 ### 此页相关
 
 - [x] 此页内容改成表格
-- [x] 收录所有信息$~~~$*待确认*
+- [ ] 收录所有信息$~~~$*待确认*
 
 ### 开发相关
 
@@ -41,6 +41,7 @@ Some of the website source code that does not include the novels may be open sou
   - [ ] 导航栏
   - [ ] 无障碍
     - [ ] 屏幕阅读器适配
+  - [ ] 显示写作时间
 - [x] 重构
   - [x] 变量名$~~~$*待确认*
   - [x] 文件名
@@ -56,6 +57,13 @@ Some of the website source code that does not include the novels may be open sou
     - [x] 灵感/蜂巢
     - [x] 灵感/胶卷
     - [x] 未完成/上帝已死
+
+## 已完成功能
+
+- 暗色适配
+- 浏览器兼容提示
+- 部分样式较原模版优化
+- 著作权提示
 
 ## 元信息列表
 

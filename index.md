@@ -26,8 +26,6 @@ title: 主页
 
 ~~[蜂巢](/spark/Honeycomb.html)~~ ， ~~[胶卷](/spark/The-film.html)~~ 作为草案储备已封存
 
-(提醒一句，已封存内容在Git记录里是查不到的，因为加到了.gitignore里，根本不会上传)
-
 -----
 
 ### 共享草案
