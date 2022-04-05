@@ -70,7 +70,7 @@
 
   --dis: calc(var(--max-height) - var(--min-height));
   --transition-var: calc(var(--scroll-ani) - var(--dis));
-  --output: calc((var(--transition-var) - abs(var(--transition-var))) / 2 + var(--dis));
+  --output: calc(0 - ((var(--transition-var) - abs(var(--transition-var))) / 2));
   height: calc(var(--max-height) - var(--output));
   // height: var(--max-height);
 
@@ -94,5 +94,9 @@
 }
 
 #header-PH{
-  height: 75vh;
+  height: var(--max-height);
+  --max-height: 25vh;
+  @include large {
+    --max-height: 75vh;
+  }
 }
