@@ -3,6 +3,7 @@ layout: novel
 title: 有关我的小说进度，Kurzgesagt和刘慈欣
 cc-type: by-nc
 time: 2022/4/5 13:30
+description: 虽然文章名字挺正经，但实质上这一篇水分蛮多的，当消遣看就可以啦
 ---
 
 最近决心按照月更的标准要求自己写小说，所以近期在网上找了大量的素材以获取值得关注的问题以及能够发散思考的点。目前已经有《[棱镜](/spark/The-prism.html)》，《胶卷》，《蜂巢》三篇小说草案，《[Gott ist tot](/writing/Gott-ist-tot.html)》一篇已完成剧情线小说。

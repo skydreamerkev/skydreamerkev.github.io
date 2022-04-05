@@ -12,6 +12,8 @@ title: 主页
 
 [有关《安全出口》。。。](/discuss/about-TEe.html)
 
+[有关我的小说进度，Kurzgesagt和刘慈欣](/discuss/about-Kurzgesagt.html)
+
 ## 正在创作
 
 > 注意！所有未完成作品若无额外声明则保留完整著作权！禁止包括但不限于任何形式的二次创作和再分发！
