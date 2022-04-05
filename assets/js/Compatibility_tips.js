@@ -119,7 +119,7 @@ function Compatibility() {
     }
 }
 time = new Date();
-if (!localStorage.comptime || localStorage.comptime + 2592000000 < time) { // 2,592,000,000ms = 30day
+if (!localStorage.comptime || parseInt(localStorage.comptime) + 2592000000 < time) { // 2,592,000,000ms = 30day
     Compatibility();
     localStorage.comptime = time - 0; // only store numbers
 }
