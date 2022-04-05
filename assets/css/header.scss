@@ -60,6 +60,7 @@
   }
 
   @include medium {
+    --max-height: 50vh;
     --min-height: 9rem;
   }
 
@@ -98,5 +99,8 @@
   --max-height: 25vh;
   @include large {
     --max-height: 75vh;
+  }
+  @include medium {
+    --max-height: 50vh;
   }
 }
