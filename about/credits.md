@@ -13,6 +13,9 @@ description: 不清楚Credits页面中文名应该叫什么，为防止误解就
 > [Cayman](https://pages-themes.github.io/cayman/)
 -----
 
+> [Netlify](https://www.netlify.com/)
+-----
+
 -----
 
 这一页的信息可能发生疏漏，所以
