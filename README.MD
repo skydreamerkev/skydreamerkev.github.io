@@ -1,7 +1,8 @@
 # 法拉(Farad)的小说站
 
-[![Jekyll-theme-cayman](https://img.shields.io/badge/Jekyll_theme-cayman-%23159957?style=flat)](https://pages-themes.github.io/cayman/)
-![Pages status](https://github.com/farad314/farad314.github.io/actions/workflows/pages/pages-build-deployment/badge.svg?style=flat)
+[![Jekyll-theme-cayman](https://img.shields.io/badge/Jekyll_theme-cayman-159957)](https://pages-themes.github.io/cayman/)
+[![GitHub commit activity](https://img.shields.io/github/commit-activity/w/farad314/farad314.github.io/main?label=Updates)](https://github.com/farad314/farad314.github.io/tree/main/)
+![Pages status](https://github.com/farad314/farad314.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/3457f5da-e886-4400-96d3-e1a84b97a648/deploy-status)](https://app.netlify.com/sites/farad/deploys)
 
 ## 写在前面
