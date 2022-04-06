@@ -21,8 +21,6 @@
   }
 </style>
 <script>
-  li=["done","spark"]
-  for(var i=0;i<li.length;i++)
-    if(window.location.href.search("farad314.github.io/"+li[i]) != -1)
+  if(window.location.href.search(/(http|https):\/\/(www.)?(\w+(\.)?)+\/(done|spark|discuss|writing|about)/) != -1)
       document.getElementsByClassName("project-tagline")[0].innerText+="\n\n你找的内容可能不存在或被隐藏了。"
 </script>

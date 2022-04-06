@@ -79,7 +79,7 @@
   if(!(["by","by-sa","by-nd","by-nc","by-nc-sa","by-nc-nd","cr"].includes(cctype))) cctype="by-nc-sa";
 
   // If reserved Copyright
-  if(cctype=="cr") document.getElementById("ccblock").innerHTML="Copyright 2022 farad314.github.io Farad 法拉 版权所有"
+  if(cctype=="cr") document.getElementById("ccblock").innerHTML="Copyright 2022 "+ window.location.href.match(/(http|https):\/\/(www.)?(\w+(\.)?)+/)[0] +" Farad 法拉 版权所有"
 
   // If CC
   document.getElementById("CClink").href="http://creativecommons.org/licenses/"+cctype+"/4.0/deed.zh?ref=chooser-v1"

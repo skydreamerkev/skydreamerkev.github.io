@@ -1,5 +1,9 @@
 # 法拉(Farad)的小说站
 
+[![Jekyll-theme-cayman](https://img.shields.io/badge/Jekyll_theme-cayman-%23159957?style=flat)](https://pages-themes.github.io/cayman/)
+![Pages status](https://github.com/farad314/farad314.github.io/actions/workflows/pages/pages-build-deployment/badge.svg?style=flat)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/3457f5da-e886-4400-96d3-e1a84b97a648/deploy-status)](https://app.netlify.com/sites/farad/deploys)
+
 ## 写在前面
 
 ### 此仓库的LICENCE文件已删除 The LICENCE file of this repository has been removed
