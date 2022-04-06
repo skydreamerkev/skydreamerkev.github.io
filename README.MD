@@ -1,9 +1,18 @@
 # 法拉(Farad)的小说站
 
 [![Jekyll-theme-cayman](https://img.shields.io/badge/Jekyll_theme-cayman-159957)](https://pages-themes.github.io/cayman/)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/farad314/farad314.github.io)
 [![GitHub commit activity](https://img.shields.io/github/commit-activity/w/farad314/farad314.github.io/main?label=Updates)](https://github.com/farad314/farad314.github.io/tree/main/)
-![Pages status](https://github.com/farad314/farad314.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)
+![GitHub issues](https://img.shields.io/github/issues/farad314/farad314.github.io)
+[![GitHub Discussions](https://img.shields.io/github/discussions/farad314/farad314.github.io)](https://github.com/farad314/farad314.github.io/discussions)
+
+[![GitHub Pages deployments](https://img.shields.io/github/deployments/farad314/farad314.github.io/github-pages?label=Pages%20deploy)](https://github.com/farad314/farad314.github.io/deployments?environment=github-pages)
+[![Pages status](https://github.com/farad314/farad314.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/farad314/farad314.github.io/actions/workflows/pages/pages-build-deployment)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/3457f5da-e886-4400-96d3-e1a84b97a648/deploy-status)](https://app.netlify.com/sites/farad/deploys)
+
+-----
+
+[![licence](https://img.shields.io/badge/copyright-reserved-red)](https://github.com/farad314/farad314.github.io/blob/main/LICENCE)
 
 ## 写在前面
 
