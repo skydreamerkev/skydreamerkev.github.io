@@ -1,6 +1,7 @@
 ---
 layout: functional
 title: 关于本站
+locate: zh-CN
 ---
 
 ## 本站基于 Github Pages {#Powered-by-Jekyll}

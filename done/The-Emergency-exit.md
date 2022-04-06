@@ -3,6 +3,9 @@ layout: novel
 cc-name: 《安全出口》
 title: 安全出口
 description: 这一篇的背景设定为现代，是一篇思考“公平”另一面的小说
+image: /assets/image/The-Emergency-exit.png
+author: 法拉
+locate: zh-CN
 ---
 失控的研究所里，除了明亮的“安全出口”字样的灯牌外，只有气密试验室还亮着灯。叶征在过渡区门口望着不远处若隐若现的反光，在那里他的妹妹叶真正趴在地上吃力地望着他背后传出的光芒，他在等她。她浑身都是伤，正用双手爬着。不时痛苦地咳嗽着。
 

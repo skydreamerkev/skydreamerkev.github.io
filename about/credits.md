@@ -2,6 +2,7 @@
 layout: functional
 title: Credits
 description: 不清楚Credits页面中文名应该叫什么，为防止误解就先留着英文名啦（此处排名不分先后）
+locate: zh-CN
 ---
 
 > [Flat UI Colors 2](https://flatuicolors.com/)

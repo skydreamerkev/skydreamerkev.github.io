@@ -2,6 +2,7 @@
 layout: functional
 title: 有关 Farad 法拉
 footer: 此页面内一切信息不具有法律效用。
+locate: zh-CN
 ---
 
 ## 关于 Farad

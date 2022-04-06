@@ -1,6 +1,7 @@
 ---
 layout: functional
 title: 主页
+locate: zh-CN
 ---
 ## 作品
 

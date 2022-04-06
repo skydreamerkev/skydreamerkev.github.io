@@ -3,6 +3,8 @@ layout: novel
 cc-name: 《有关〈安全出口〉的阅读提示》
 title: 有关《安全出口》。。。
 cc-type: by
+author: 法拉
+locate: zh-CN
 ---
 
 > 如果没看过[原文](../done/The-Emergency-exit.html)的话，建议去看一下哦

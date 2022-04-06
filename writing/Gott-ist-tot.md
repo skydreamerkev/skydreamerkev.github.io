@@ -3,6 +3,8 @@ layout: novel
 title: Gott ist tot
 cc-type: cr
 no-like: true
+author: 法拉
+locate: zh-CN
 ---
 
 那个时代，领带、敬语乃至艺术都在逐渐消失。
