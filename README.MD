@@ -4,7 +4,7 @@
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/farad314/farad314.github.io)
 [![GitHub commit activity](https://img.shields.io/github/commit-activity/w/farad314/farad314.github.io/main?label=Updates)](https://github.com/farad314/farad314.github.io/tree/main/)
 ![GitHub issues](https://img.shields.io/github/issues/farad314/farad314.github.io)
-[![Code Factor](https://www.codefactor.io/Content/badges/A.svg)](https://www.codefactor.io/repository/github/farad314/farad314.github.io/)
+[![Code Factor](https://img.shields.io/codefactor/grade/github/farad314/farad314.github.io/main)](https://www.codefactor.io/repository/github/farad314/farad314.github.io/)
 
 [![GitHub Pages deployments](https://img.shields.io/github/deployments/farad314/farad314.github.io/github-pages?label=Pages%20deploy)](https://github.com/farad314/farad314.github.io/deployments?environment=github-pages)
 [![Pages status](https://github.com/farad314/farad314.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/farad314/farad314.github.io/actions/workflows/pages/pages-build-deployment)
