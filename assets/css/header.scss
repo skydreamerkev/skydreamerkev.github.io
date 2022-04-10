@@ -98,10 +98,18 @@
 #header-PH{
   height: var(--max-height);
   --max-height: 25vh;
+
   @include large {
     --max-height: 75vh;
+    --min-height: 13rem;
   }
+
   @include medium {
     --max-height: 50vh;
+    --min-height: 9rem;
+  }
+
+  @include small {
+    --min-height: 6.5rem;
   }
 }
