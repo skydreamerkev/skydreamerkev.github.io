@@ -65,7 +65,7 @@
   }
 
   @include small {
-    padding: 2rem 2rem;
+    padding: 2rem;
     --min-height: 6.5rem;
   }
   /*/ Scroll animation
@@ -87,7 +87,7 @@
 
 @keyframes bgmove {
   0% {
-    background-position-x: 0px;
+    background-position-x: 0;
   }
   100% {
     background-position-x: 100%;
