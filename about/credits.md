@@ -5,16 +5,16 @@ description: 不清楚Credits页面中文名应该叫什么，为防止误解就
 locate: zh-CN
 ---
 
-> [Flat UI Colors 2](https://flatuicolors.com/)
+> [Flat UI Colors 2](https://flatuicolors.com/) - 本网站的大部分色彩都是从这里选取的&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;使用MIT协议
 -----
 
-> [Jekyll](https://jekyllrb.com/)
+> [Jekyll](https://jekyllrb.com/) - 静态网页生成器，把我们从重复工作中解脱出来&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;使用MIT协议
 -----
 
-> [Cayman](https://pages-themes.github.io/cayman/)
+> [Cayman](https://pages-themes.github.io/cayman/) - Jekyll主题，为我们省去了大多数前期工作&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;使用CC0协议
 -----
 
-> [Netlify](https://www.netlify.com/)
+> [Netlify](https://www.netlify.com/) - 网站部署平台，提供了国内访问网站的方式&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;使用协议未知
 -----
 
 -----
