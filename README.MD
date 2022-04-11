@@ -108,7 +108,6 @@ Some of the website source code that does not include the novels will be open so
 |变量名|变量用途|使用范围|备注|
 |:---|:---|:---|:---|
 |no-like|禁用推荐|novel版式页面|仅布尔值|
-|footnotes|脚注|novel/function版式页面|须为列表|
 |time|写作时间|novel版式页面|格式 YY/MM/DD HH:MM|
 
 #### 版权类
