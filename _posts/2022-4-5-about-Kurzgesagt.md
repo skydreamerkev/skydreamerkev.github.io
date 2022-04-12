@@ -1,6 +1,6 @@
 ---
 layout: novel
-title: 有关我的小说进度，Kurzgesagt和刘慈欣
+title: 有关Kurzgesagt和刘慈欣
 cc-type: by-nc
 description: 虽然文章名字挺正经，但实质上这一篇水分蛮多的，当消遣看就可以啦
 author: 法拉
