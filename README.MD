@@ -49,17 +49,51 @@ Some of the website source code that does not include the novels will be open so
 
 - [ ] 功能
   - [ ] 推荐
-  - [x] 自动目录
+  - [ ] ~~自动目录~~&nbsp;&nbsp;&nbsp;被导航栏代替
   - [ ] 佳作推荐
   - [x] 随机翻阅
   - [x] 导航栏
-  - [x] 无障碍
-    - [x] 屏幕阅读器适配
   - [ ] 显示写作时间
-- [x] 重构
-  - [x] 变量名$~~~$*待确认*
+- [ ] 界面
+  - [ ] 重新设计
+    - [ ] 主题
+    - [ ] 色彩系统
+    - [ ] 辅助元素
+    - [ ] Logo
+    - [ ] 图标风格
+    - [ ] 着色规则
+    - [ ] 装饰图像
+  - [ ] 优化
+    - [ ] 标题防溢出机制
+    - [ ] header翻页动画
+      - [ ] Functional版式
+      - [ ] Novel版式
+- [ ] 后端
+  - [ ] 树莓派LNMP搭建
+  - [ ] PHP/Node后端
+    - [ ] 推荐功能
+    - [ ] 留言箱
+  - [ ] 前后端连接
+- [ ] 协议
+  - [ ] 确定Framework法律风险
+
+#### 重构
+
+每月一次
+
+- [x] 第一次重构
+  - [x] 变量名&nbsp;&nbsp;&nbsp;*待确认*
   - [x] 文件名
   - [x] 注释
+- [ ] 第二次重构&nbsp;&nbsp;&nbsp;预计于5/1开始
+  - [ ] 变量名&nbsp;&nbsp;&nbsp;*待确认*
+  - [ ] 文件名
+  - [ ] 注释
+  - [ ] 无障碍
+    - [ ] 屏幕阅读器适配
+  - [ ] 文档整理
+  - [ ] framework分支更新
+  - [ ] 确认
 
 ### 内容相关
 
@@ -71,6 +105,9 @@ Some of the website source code that does not include the novels will be open so
     - [x] 灵感/蜂巢
     - [x] 灵感/胶卷
     - [x] 未完成/上帝已死
+    - [ ] 灵感/试作乌托邦
+  - [ ] 网站更新日志
+  - [ ] 留言箱
 
 ## 已完成功能
 
