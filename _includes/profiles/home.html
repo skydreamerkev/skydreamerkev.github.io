@@ -6,11 +6,24 @@
         {%- endfor -%}
     ];
     random_page.addEventListener("click",()=>{
-        randomPage(pages);
+        if(localStorage.urls) urls = JSON.parse(localStorage.urls);
+        else urls=[];
+        if(urls.length >= pages.length) urls=[];
+        var url = pages[0];
+        for (let i = 0; i < 8; i++) {
+            var index = Math.floor(pages.length * Math.random());
+            url = pages[index];
+            if(urls.includes(url)) continue;
+            else{
+                urls.push(url);
+                break;
+            }
+        };
+        localStorage.urls = JSON.stringify(urls);
+        window.location.href = url;
     });
     random_page.innerHTML='<i class="fa-solid fa-dice"></i>'+random_page.innerHTML
 </script>
-<script src="/assets/js/random_page.js"></script>
 <style>
     #random-page{
         cursor: pointer;

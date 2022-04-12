@@ -37,7 +37,7 @@ locate: zh-CN
 [棱镜](/spark/The-prism.html)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;这一篇使用CC BY-NC-SA授权，附加要求：若使用，则需告知原作者
 -->
 
-## &nbsp;&nbsp;&nbsp;随机页面 {#random-page}
+## &nbsp;&nbsp;&nbsp;随机翻阅 {#random-page}
 
 索引已完成，主页索引链接失效。内容将在近期补充。
 
