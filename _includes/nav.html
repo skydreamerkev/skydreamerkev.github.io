@@ -1,10 +1,12 @@
 <link rel="stylesheet" href="/assets/css/nav.css" />
 <nav class="page-nav">
+    <a href="/">
     <div class="nav-item nav-home">
         <span class="nav-title">
-            <a href="/">主页</a>
+            主页
         </span>
     </div>
+    </a>
   {% for cat in site.categories %}
     {% if cat[0] != "hide" and cat[0] != "novel" %}
         <div class="nav-item">
