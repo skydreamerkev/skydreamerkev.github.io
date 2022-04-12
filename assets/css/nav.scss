@@ -1,0 +1,74 @@
+---
+---
+.color-inherit{color: inherit;}
+// This is to prevent errors from being reported in the editor
+
+// Imports
+@import "variables";
+
+@mixin large {
+  @media screen and (min-width: #{$large-breakpoint}) {
+    @content;
+  }
+}
+
+@mixin medium {
+  @media screen and (min-width: #{$medium-breakpoint}) and (max-width: #{$large-breakpoint}) {
+    @content;
+  }
+}
+
+@mixin small {
+  @media screen and (max-width: #{$medium-breakpoint}) {
+    @content;
+  }
+}
+
+.nav-list{
+  padding: 0.5rem 0 0 0;
+  margin: 0;
+  height: 0;
+  transition: transform 250ms ,opacity 250ms;
+  transform: translate(0, -100%);
+  opacity: 0;
+  line-height: 1.5;
+  background-color: #FFFFFF40;
+}
+.nav-list li{
+    padding: 0.5rem;
+}
+.page-nav .nav-item:hover ul {
+  transform: translate(0, 0);
+  opacity: 1;
+}
+.page-nav ul li {
+  list-style: none;
+}
+.page-nav {
+  background-color: #fff2;
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: baseline;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+    height: calc(var(--padding) / 2 + 16px);
+  line-height: calc(var(--padding) / 2 + 16px);
+  @include large {
+    --padding: 6rem;
+  }
+
+  @include medium {
+    --padding: 4rem;
+  }
+
+  @include small {
+    --padding: 1rem;
+  }
+}
+.page-nav .nav-item {
+  flex: 1;
+  text-align: center;
+}

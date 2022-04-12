@@ -9,7 +9,6 @@
 
 // Imports
 @import "variables";
-@import url("/assets/css/darkTheme.scss");
 
 @mixin large {
   @media screen and (min-width: #{$large-breakpoint}) {
@@ -29,8 +28,7 @@
   }
 }
 
-.page-header {
-  // Override background
+.page-header-block{
   background-image: linear-gradient(
     90deg,
     $header-bg-color-secondary,
@@ -38,10 +36,13 @@
     $header-bg-color-secondary,
     $header-bg-color
   );
-
-  // Background Animation
   background-size: 300% 100%;
   animation: bgmove 30s linear infinite both;
+}
+
+.page-header {
+  // Override background
+  background: transparent;
 
   // Flex
   display: flex;
@@ -51,8 +52,6 @@
   justify-content: flex-end;
   align-items: baseline;
   overflow: hidden;
-  // position: fixed;
-  position: absolute;
   width: 100%;
   --max-height: 25vh;
 
@@ -114,4 +113,5 @@
   @include small {
     --min-height: 6.5rem;
   }
+  display: none; // This feature is disabled
 }

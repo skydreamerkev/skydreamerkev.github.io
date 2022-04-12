@@ -7,6 +7,7 @@ author: 法拉
 locate: zh-CN
 categories:
  - writing
+ - trailers
  - novel
 ---
 

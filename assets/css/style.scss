@@ -4,6 +4,7 @@
 // This is to prevent errors from being reported in the editor
 
 @import "{{ site.theme }}";
+@import url("./darkTheme.css");
 
 // Print adaptation
 .printonly {

@@ -1,8 +1,16 @@
+---
+---
+.color-inherit{color: inherit;}
+// This is to prevent errors from being reported in the editor
+
 @media (prefers-color-scheme: dark) {
   // Color
   body {
     background-color: #181a1b;
     color: #a69e93;
+  }
+  .nav-list{
+    background-color: #181a1b40;
   }
   .page-header {
     color: #e8e6e3;

@@ -4,22 +4,11 @@ title: 法拉的小说
 description: 法拉的小说
 locale: zh-CN
 author: 法拉
+sass:
+  style: compressed
 
 lsi: true
 profile: true
-
-collections:
-  hide:
-    output: false
-  done:
-    output: true
-  Trailers:
-    output: true
-  writing:
-    output: false
-  spark:
-    output: false
-
 
 defaults:
   - scope:
@@ -38,3 +27,17 @@ defaults:
       path: ""
     values:
       layout: "default"
+
+exclude:
+ - README.MD
+
+i18n:
+  spark: 草案
+  novel: 小说
+  writing: 正在创作
+  trailers: 预告
+  done: 已完成
+  discuss: 杂谈
+
+nav-shortname:
+  有关我的小说进度，Kurzgesagt和刘慈欣: 有关Kurzgesagt...
