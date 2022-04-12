@@ -27,15 +27,13 @@ defaults:
     values:
       layout: "functional"
   - scope:
-      path: ""
-      type: ""
-  - scope:
       path: "_posts"
     values:
       layout: "novel"
       author: 法拉
       locate: zh-CN
       cc-type: by-nc-sa
+      permalink: /:year/:categories/:title/
   - scope:
       path: ""
     values:
