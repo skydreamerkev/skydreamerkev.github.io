@@ -1,11 +1,13 @@
 <script>
+    random_page=document.getElementById("random-page")
     pages=[
         {%- for post in site.posts -%}
             "{{ post.url }}",
         {%- endfor -%}
     ];
-    document.getElementById("random-page").addEventListener("click",()=>{
+    random_page.addEventListener("click",()=>{
         randomPage(pages);
     });
+    random_page.innerHTML='<i class="fa-solid fa-dice"></i>'
 </script>
 <script src="/assets/js/random_page.js"></script>
