@@ -9,6 +9,7 @@
 
 // Imports
 @import "variables";
+@import url("/assets/css/darkTheme.scss");
 
 @mixin large {
   @media screen and (min-width: #{$large-breakpoint}) {
@@ -49,6 +50,7 @@
   align-content: flex-start;
   justify-content: flex-end;
   align-items: baseline;
+  overflow: hidden;
   // position: fixed;
   position: absolute;
   width: 100%;
@@ -73,8 +75,8 @@
   --transition-var: calc(var(--scroll-ani) - var(--dis));
   --output: calc(0 - ((var(--transition-var) - abs(var(--transition-var))) / 2));
   height: calc(var(--max-height) - var(--output));
-  /**/ height: var(--max-height);
-
+  /**/
+  height: var(--max-height);
 }
 
 .project-name {

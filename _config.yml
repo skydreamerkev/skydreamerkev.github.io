@@ -4,3 +4,39 @@ title: 法拉的小说
 description: 法拉的小说
 locale: zh-CN
 author: 法拉
+
+lsi: true
+profile: true
+
+collections:
+  hide:
+    output: false
+  done:
+    output: true
+  Trailers:
+    output: true
+  writing:
+    output: false
+  spark:
+    output: false
+
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "functional"
+  - scope:
+      path: ""
+      type: ""
+  - scope:
+      path: "_posts"
+    values:
+      layout: "novel"
+      author: 法拉
+      locate: zh-CN
+      cc-type: by-nc-sa
+  - scope:
+      path: ""
+    values:
+      layout: "default"
