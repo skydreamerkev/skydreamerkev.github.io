@@ -75,7 +75,7 @@
   --output: calc(0 - ((var(--transition-var) - abs(var(--transition-var))) / 2));
   height: calc(var(--max-height) - var(--output));
   /**/
-  height: var(--max-height);
+  height: calc(var(--max-height) - (var(--padding) / 2 + 16px));
 }
 
 .project-name {
@@ -103,15 +103,18 @@
   @include large {
     --max-height: 75vh;
     --min-height: 13rem;
+    --padding: 6rem;
   }
 
   @include medium {
     --max-height: 50vh;
     --min-height: 9rem;
+    --padding: 4rem;
   }
 
   @include small {
     --min-height: 6.5rem;
+    --padding: 1rem;
   }
   display: none; // This feature is disabled
 }
