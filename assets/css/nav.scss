@@ -29,6 +29,7 @@
   height: 0;
   transition: transform 250ms ,opacity 250ms;
   transform: translate(0, -25%);
+  display: none;
   opacity: 0;
   line-height: 1.5;
   margin: 0;
@@ -51,6 +52,7 @@
 .page-nav .nav-item:hover ul {
   transform: translate(0, 1rem);
   opacity: 1;
+  display: block;
 }
 .page-nav ul li {
   list-style: none;
@@ -82,6 +84,7 @@
 .page-nav .nav-item {
   flex: 1;
   text-align: center;
+  height: calc(var(--padding) / 2 + 16px + 5px + 1rem);
 }
 .nav-home{
   text-decoration: none;

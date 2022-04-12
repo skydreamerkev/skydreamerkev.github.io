@@ -49,12 +49,12 @@ Some of the website source code that does not include the novels will be open so
 
 - [ ] 功能
   - [ ] 推荐
-  - [ ] 自动目录
+  - [x] 自动目录
   - [ ] 佳作推荐
-  - [ ] 随机翻阅
-  - [ ] 导航栏
-  - [ ] 无障碍
-    - [ ] 屏幕阅读器适配
+  - [x] 随机翻阅
+  - [x] 导航栏
+  - [x] 无障碍
+    - [x] 屏幕阅读器适配
   - [ ] 显示写作时间
 - [x] 重构
   - [x] 变量名$~~~$*待确认*

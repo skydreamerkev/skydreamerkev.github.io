@@ -1,0 +1,11 @@
+<script>
+    pages=[
+        {%- for post in site.posts -%}
+            "{{ post.url }}",
+        {%- endfor -%}
+    ];
+    document.getElementById("random-page").addEventListener("click",()=>{
+        randomPage(pages);
+    });
+</script>
+<script src="/assets/js/random_page.js"></script>
