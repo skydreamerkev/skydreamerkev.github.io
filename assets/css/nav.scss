@@ -38,10 +38,8 @@
 }
 .nav-list{
   padding: 0;
-  height: 0;
   transition: transform 250ms ,opacity 250ms;
-  transform: translate(0, -25%);
-  display: none;
+  transform: translate(0, -1rem);
   opacity: 0;
   line-height: 1.5;
   margin: 0;
@@ -61,10 +59,12 @@
 .nav-list li:first-child{
     padding: 1rem 0.5rem 0.5rem 0.5rem;
 }
+.page-nav .nav-item:hover{
+  height: auto;
+}
 .page-nav .nav-item:hover ul {
-  transform: translate(0, 1rem);
+  transform: translate(0, 0);
   opacity: 1;
-  display: block;
 }
 .page-nav ul li {
   list-style: none;
@@ -85,7 +85,7 @@
 .page-nav .nav-item {
   flex: 1;
   text-align: center;
-  height: calc(var(--padding) / 2 + 16px + 5px + 1rem);
+  height: calc(var(--padding) / 2 + 16px);
 }
 .nav-home{
   text-decoration: none;
@@ -94,4 +94,7 @@
 .page-nav > a {
   flex: 1;
   text-align: center;
+}
+.nav-spaceholder{
+  height: 1rem;
 }
