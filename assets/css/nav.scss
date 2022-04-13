@@ -23,7 +23,19 @@
     @content;
   }
 }
+:root{
+  @include large {
+    --padding: 6rem;
+  }
 
+  @include medium {
+    --padding: 4rem;
+  }
+
+  @include small {
+    --padding: 2rem;
+  }
+}
 .nav-list{
   padding: 0;
   height: 0;
@@ -69,17 +81,6 @@
   width: 100%;
     height: calc(var(--padding) / 2 + 16px);
   line-height: calc(var(--padding) / 2 + 16px);
-  @include large {
-    --padding: 6rem;
-  }
-
-  @include medium {
-    --padding: 4rem;
-  }
-
-  @include small {
-    --padding: 1rem;
-  }
 }
 .page-nav .nav-item {
   flex: 1;

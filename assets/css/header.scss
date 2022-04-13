@@ -58,17 +58,14 @@
   @include large {
     --max-height: 75vh;
     --min-height: 13rem;
-    --padding: 6rem;
   }
   @include medium {
     --max-height: 50vh;
     --min-height: 9rem;
-    --padding: 4rem;
   }
   @include small {
     padding: 2rem;
     --min-height: 6.5rem;
-    --padding: 1rem;
   }
 
   /*/ Scroll animation
@@ -105,18 +102,15 @@
   @include large {
     --max-height: 75vh;
     --min-height: 13rem;
-    --padding: 6rem;
   }
 
   @include medium {
     --max-height: 50vh;
     --min-height: 9rem;
-    --padding: 4rem;
   }
 
   @include small {
     --min-height: 6.5rem;
-    --padding: 1rem;
   }
   display: none; // This feature is disabled
 }
