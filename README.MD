@@ -92,6 +92,9 @@ Some of the website source code that does not include the novels will be open so
   - [ ] 无障碍
     - [ ] 屏幕阅读器适配
   - [ ] 文档整理
+    - [ ] 功能列表
+    - [ ] 特性清单
+    - [ ] 补齐`CHANGELOG.MD`
   - [ ] framework分支更新
   - [ ] 浏览器兼容性测试
     - [ ] ~~webcontrol内核 (禁止访问) ~~
@@ -113,8 +116,10 @@ Some of the website source code that does not include the novels will be open so
       - [ ] *360*
       - [ ] *QQ*
       - [ ] *UC*
+      - [ ] 猎豹
       - [ ] ~~2345~~
     > 注：*斜体*为可能不会测试的浏览器，~~删除线~~是不会测试的浏览器
+    > 目前这个网站甚至都没几个人看，测试那么多浏览器有什么用
   - [ ] 收尾工作
     - [ ] 调整兼容性提示
     - [ ] Fork新分支`Pre-Release`
@@ -170,6 +175,7 @@ Some of the website source code that does not include the novels will be open so
 |:---|:---|:---|:---|
 |no-like|禁用推荐|novel版式页面|仅布尔值|
 |time|写作时间|novel版式页面|格式 YY/MM/DD HH:MM|
+|no-nav|去除导航栏|所有页面|仅布尔值|
 
 #### 版权类
 
