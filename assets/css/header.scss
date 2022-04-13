@@ -42,7 +42,17 @@
 
 .page-header {
   // Override background
-  background: transparent;
+  background-image: linear-gradient(
+    90deg,
+    $header-bg-color-secondary,
+    $header-bg-color,
+    $header-bg-color-secondary,
+    $header-bg-color
+  );
+
+  // Background Animation
+  background-size: 300% 100%;
+  animation: bgmove 30s linear infinite both;
 
   // Flex
   display: flex;
@@ -74,7 +84,7 @@
   --output: calc(0 - ((var(--transition-var) - abs(var(--transition-var))) / 2));
   height: calc(var(--max-height) - var(--output));
   /**/
-  height: calc(var(--max-height) - (var(--padding) / 2 + 16px));
+  height: var(--max-height);
 }
 
 .project-name {
@@ -114,6 +124,7 @@
   }
   display: none; // This feature is disabled
 }
-.page-header .no-nav{
-  height: var(--max-height);
+.page-header .nav{
+  background: transparent;
+  height: calc(var(--max-height) - (var(--padding) / 2 + 16px));
 }
