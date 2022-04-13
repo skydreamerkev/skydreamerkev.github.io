@@ -5,6 +5,12 @@
             "{{ post.url }}",
         {%- endfor -%}
     ];
+    /*
+        {% comment %}
+            I can't find a way to prevent error in editor, so I just leave it there.
+        {% endcomment %}
+        This list contain all posts' link and will dynamic update.
+    */
     random_page.addEventListener("click",()=>{
         if(localStorage.urls) urls = JSON.parse(localStorage.urls);
         else urls=[];
@@ -21,6 +27,15 @@
         };
         localStorage.urls = JSON.stringify(urls);
         window.location.href = url;
+        /*
+        What does this function do:
+            Randomly select the page eight times and visit the first page that has never been visited.
+            If there are no pages that have never been visited, the last page selected is visited.
+            If all pages have been visited, reset page visited status
+
+        The performance of this function:
+            In most cases, the pages will not appear twice, but there is still a small chance of drawing the same pages. Once all pages have been looked, it restart from the beginning.
+        */
     });
     random_page.innerHTML='<i class="fa-solid fa-dice"></i>'+random_page.innerHTML
 </script>

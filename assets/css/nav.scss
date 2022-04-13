@@ -43,14 +43,10 @@
   opacity: 0;
   line-height: 1.5;
   margin: 0;
-  margin-block-start: 0;
-  margin-block-end: 0;
-  margin-inline-start: 0;
-  margin-inline-end: 0;
-  padding-inline-start: 0;
   height: auto;
   background-color: #ffffff40;
   backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
   border-radius: 15px;
   pointer-events: none;
 }

@@ -93,7 +93,31 @@ Some of the website source code that does not include the novels will be open so
     - [ ] 屏幕阅读器适配
   - [ ] 文档整理
   - [ ] framework分支更新
-  - [ ] 确认
+  - [ ] 浏览器兼容性测试
+    - [ ] ~~webcontrol内核 (禁止访问) ~~
+      - [ ] ~~IE~~
+    - [ ] Trident内核
+      - [ ] IE11
+    - [ ] Blink内核
+      - [ ] 新 Edge
+      - [ ] Chrome
+      - [ ] Opera
+      - [ ] *搜狗*
+    - [ ] EdgeHTML内核
+      - [ ] *旧 Edge*
+    - [ ] Webkit内核
+      - [ ] safari
+    - [ ] Gecko内核
+      - [ ] Firefox
+    - [ ] *国产双核*
+      - [ ] *360*
+      - [ ] *QQ*
+      - [ ] *UC*
+      - [ ] ~~2345~~
+    > 注：*斜体*为可能不会测试的浏览器，~~删除线~~是不会测试的浏览器
+  - [ ] 收尾工作
+    - [ ] 调整兼容性提示
+    - [ ] Fork新分支`Pre-Release`
 
 ### 内容相关
 

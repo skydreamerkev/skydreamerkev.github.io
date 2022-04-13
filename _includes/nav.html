@@ -1,5 +1,6 @@
 <link rel="stylesheet" href="/assets/css/nav.css" />
 <nav class="page-nav">
+    <!-- Constant start -->
     <a href="/">
     <div class="nav-item nav-home">
         <span class="nav-title">
@@ -7,6 +8,7 @@
         </span>
     </div>
     </a>
+    <!-- Constant end -->
   {% for cat in site.categories %}
     {% if cat[0] != "hide" and cat[0] != "novel" %}
         <div class="nav-item">
@@ -29,17 +31,16 @@
                     <li>
                         <a href="{{ post.url }}">
                             {% assign i18n = true %}
-                {%- for tag in site.nav-shortname -%}
-                    {% if tag[0] == post.title %}
-                        {{ tag[1] }}
-                        {% assign i18n = false %}
-                        {% break %}
-                    {% endif %}
-                {%- endfor -%}
-                {% if i18n %}
-                    {{ post.title }}
-                {% endif %}
-
+                            {%- for tag in site.nav-shortname -%}
+                                {% if tag[0] == post.title %}
+                                    {{ tag[1] }}
+                                    {% assign i18n = false %}
+                                    {% break %}
+                                {% endif %}
+                            {%- endfor -%}
+                            {% if i18n %}
+                                {{ post.title }}
+                            {% endif %}
                         </a>
                     </li>
                 {% endfor %}
@@ -48,3 +49,23 @@
     {% endif %}
   {% endfor %}
 </nav>
+{% comment %}
+    output:
+    nav.page-nav
+        a
+            div.nav-home
+                span.nav-title
+                    主页
+    -- Repeat part (nav-item) Start --
+        div.nav-item
+            span.nav-title
+                < i18n title >
+            div.nav-placeholder
+            ul.nav-list
+            -- Repeat part (li) Start --
+                li
+                    a
+                        < shorten title >
+            -- Repeat part (li) End   --
+    -- Repeat part (nav-item) End   --
+{% endcomment %}
