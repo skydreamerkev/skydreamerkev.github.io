@@ -26,7 +26,10 @@
       {{ content }}
       <footer class="site-footer">
         <p id="novel-modtime">最后编辑于{{ page.date }}</p>
-        <script>document.getElementById("novel-modtime").innerText.replace(/ (\d{1,2}(:| )){3,3}\+\d{1,4}/,"")</script><!-- remove time -->
+        <script>
+          modtime = document.getElementById("novel-modtime");
+          modtime.innerText = modtime.innerText.replace(/ (\d{1,2}(:| )){3,3}\+\d{1,4}/,"")
+        </script><!-- remove time -->
         {% include defaultFooter.html %}
 
         {% if page.no-like %}

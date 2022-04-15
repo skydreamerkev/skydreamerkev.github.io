@@ -72,17 +72,18 @@
 {% include variable.html %}
 <script>
     'use strict';
-    var random_page=document.getElementById("random-page");
-    random_page.addEventListener("click",random_page);
     var nav=document.querySelector("body > div.page-header-block > nav");
     var ItemCount = nav.childElementCount;
     for (let index = 0; index < ItemCount; index++){
         const item = nav.children[index];
-        if(item.id != 'random-page') {
-            nav.children[index].itemList = getPageListForNav(item);
-            nav.children[index].children[0].addEventListener('click',randomPage);
+        if(item.tagName != 'A') if(item.id != 'random-page') {
+            item.children[0].itemList = getPageListForNav(item);
+            item.children[0].addEventListener('click',randomPage);
         }else{
-            nav.children[index].addEventListener('click',randomPage);
+            item.addEventListener('click',randomPage);
+            var i=document.createElement("i");
+            i.classList.add('fa-solid','fa-dice');
+            item.insertBefore(i,item.firstChild);
         }
     };
 </script>

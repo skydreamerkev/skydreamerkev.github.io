@@ -67,7 +67,7 @@
 
   @include large {
     --max-height: 75vh;
-    --min-height: 13rem;
+    --min-height: 14rem;
   }
   @include medium {
     --max-height: 50vh;
@@ -75,25 +75,27 @@
   }
   @include small {
     padding: 2rem;
-    --min-height: 6.5rem;
+    --min-height: 6rem;
   }
 
   /*/ Scroll animation
   --dis: calc(var(--max-height) - var(--min-height));
-  --transition-var: calc(var(--scroll-ani) - var(--dis));
-  --output: calc(0 - ((var(--transition-var) - abs(var(--transition-var))) / 2));
-  height: calc(var(--max-height) - var(--output));
-  /**/
+  --trans1: calc(var(--scroll-ani) - var(--dis));
+  --trans2: calc((abs(var(--trans1)) - var(--trans1)) / 2);
+  height: calc(var(--max-height) - var(--trans2));
+  /**//*/ Alternatives
   height: var(--max-height);
+  /**/
 }
 
 .project-name {
   margin-right: 1rem;
+  margin-bottom: 0;
   line-height: 1.2;
 }
 
 .project-tagline {
-  margin: 0;
+  margin: 0.25rem 0 0 0;
 }
 
 @keyframes bgmove {

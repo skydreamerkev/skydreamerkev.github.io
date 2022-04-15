@@ -4,8 +4,12 @@ function randomPage(pageList = false) {
         if (pages) pageList = pages;
         else throw ReferenceError('Page list is missing (Global)');
     else if (pageList.type == "click")
+        if (pageList.pointerType != 'mouse' && this.itemList) return;
         if (this.itemList) pageList = this.itemList;
-        else if (pages) pageList = pages;
+        else if (pages) {
+            pageList = pages;
+            console.warn("This is not a global random button, but no random list was found");
+        }
         else throw ReferenceError('Page list is missing (Event)');
     if (localStorage.urls) var urls = JSON.parse(localStorage.urls);
     else var urls = [];
