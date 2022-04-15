@@ -5,3 +5,11 @@ Disallow: /googlefont/
 Disallow: /assets/image/
 Disallow: /2021/
 Disallow: /2022/
+Disallow: /2023/
+Disallow: /2024/
+Disallow: /2025/
+Disallow: /2026/
+Disallow: /2027/
+Disallow: /2028/
+Disallow: /2029/
+Disallow: /2030/
