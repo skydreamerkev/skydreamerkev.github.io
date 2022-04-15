@@ -2,3 +2,6 @@ User-agent: *
 Disallow: /.hide$
 Disallow: /.md$
 Disallow: /googlefont/
+Disallow: /assets/image/
+Disallow: /2021/
+Disallow: /2022/
