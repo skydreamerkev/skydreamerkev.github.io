@@ -25,6 +25,7 @@
     <main id="content" class="main-content" role="main">
       {{ content }}
       <footer class="site-footer">
+        <p>最后编辑于{{ page.date }}</p>
         {% include defaultFooter.html %}
 
         {% if page.no-like %}
