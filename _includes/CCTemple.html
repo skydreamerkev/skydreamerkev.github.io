@@ -46,7 +46,7 @@
     <img
       src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"
       alt="CC BY icon"
-      id='ccby'
+          id="ccby"
     />
     <img
       src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1"
@@ -73,21 +73,38 @@
 </p>
 </div>
 <script>
-  cctype = '{{ page.cc-type | "by-nc-sa" }}'
+  cctype = '{{ page.cc-type | "by-nc-sa" }}';
 
   // Filter invalid types
-  if(!(["by","by-sa","by-nd","by-nc","by-nc-sa","by-nc-nd","cr"].includes(cctype))) cctype="by-nc-sa";
+  if (
+    !["by", "by-sa", "by-nd", "by-nc", "by-nc-sa", "by-nc-nd", "cr"].includes(
+      cctype
+    )
+  )
+    cctype = "by-nc-sa";
 
   // If reserved Copyright
-  if(cctype=="cr") document.getElementById("ccblock").innerHTML="Copyright 2022 "+ window.location.href.match(/(http|https):\/\/(www.)?(\w+(\.)?)+/)[0] +" Farad 法拉 版权所有"
-
+  if (cctype == "cr")
+    document.getElementById("ccblock").innerHTML =
+      "Copyright 2022 " +
+      window.location.href.match(/(http|https):\/\/(www.)?(\w+(\.)?)+/)[0] +
+      " Farad 法拉 版权所有";
+  else {
   // If CC
-  document.getElementById("CClink").href="http://creativecommons.org/licenses/"+cctype+"/4.0/deed.zh?ref=chooser-v1"
-  document.getElementById("cc-link").innerText="http://creativecommons.org/licenses/"+cctype+"/4.0/deed.zh?ref=chooser-v1"
-  icons=["by","sa","nd","nc"]
+    document.getElementById("CClink").href =
+      "http://creativecommons.org/licenses/" +
+      cctype +
+      "/4.0/deed.zh?ref=chooser-v1";
+    document.getElementById("cc-link").innerText =
+      "http://creativecommons.org/licenses/" +
+      cctype +
+      "/4.0/deed.zh?ref=chooser-v1";
+    icons = ["by", "sa", "nd", "nc"];
   for (let i = 0; i < icons.length; i++) {
     const icon = icons[i];
-    if(cctype.search(icon) != -1) document.getElementById("cc"+icon).style.display="inline";
+      if (cctype.search(icon) != -1)
+        document.getElementById("cc" + icon).style.display = "inline";
   }
-  document.getElementById("cctype").innerText=cctype.toUpperCase()
+    document.getElementById("cctype").innerText = cctype.toUpperCase();
+  }
 </script>

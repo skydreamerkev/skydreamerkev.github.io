@@ -4,6 +4,8 @@ title: 法拉的小说
 description: 法拉的小说
 locale: zh-CN
 author: 法拉
+plugins: [jekyll-sitemap]
+timezone: Asia/Shanghai
 sass:
   style: compressed
 
