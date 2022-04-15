@@ -1,0 +1,10 @@
+<!-- site variables -->
+<script>
+    'use strict';
+    var pages = [""
+    {%- for post in site.posts -%}
+        ,"{{ post.url }}"
+    {%- endfor -%}
+    ];
+    /* a list of all pages */
+</script>

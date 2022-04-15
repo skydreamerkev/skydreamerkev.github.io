@@ -1,48 +1,5 @@
 <script>
-    random_page=document.getElementById("random-page")
-    pages=[
-        {%- for post in site.posts -%}
-            "{{ post.url }}",
-        {%- endfor -%}
-    ];
-    /*
-        {% comment %}
-            I can't find a way to prevent error in editor, so I just leave it there.
-        {% endcomment %}
-        This list contain all posts' link and will dynamic update.
-    */
-    random_page.addEventListener("click",()=>{
-        if(localStorage.urls) urls = JSON.parse(localStorage.urls);
-        else urls=[];
-        if(urls.length >= pages.length) urls=[];
-        var url = pages[0];
-        for (let i = 0; i < 8; i++) {
-            var index = Math.floor(pages.length * Math.random());
-            url = pages[index];
-            if(urls.includes(url)) continue;
-            else{
-                urls.push(url);
-                break;
-            }
-        };
-        localStorage.urls = JSON.stringify(urls);
-        window.location.href = url;
-        /*
-        What does this function do:
-            Randomly select the page eight times and visit the first page that has never been visited.
-            If there are no pages that have never been visited, the last page selected is visited.
-            If all pages have been visited, reset page visited status
-
-        The performance of this function:
-            In most cases, the pages will not appear twice, but there is still a small chance of drawing the same pages. Once all pages have been looked, it restart from the beginning.
-        */
-    });
-    random_page.innerHTML='<i class="fa-solid fa-dice"></i>'+random_page.innerHTML
+    var i=document.createElement("i");
+    i.classList.add('fa-solid','fa-dice');
+    random_page.insertBefore(i,random_page.firstChild);
 </script>
-<style>
-    #random-page{
-        cursor: pointer;
-        width: fit-content;
-        width: -moz-fit-content;
-    }
-</style>

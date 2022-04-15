@@ -1,13 +1,19 @@
 <link href="/assets/css/nav.css" rel="stylesheet"/>
 <nav class="page-nav">
     {%- if page.title != "主页" -%}
-        <a href="/">
-            <div class="nav-item nav-home">
+        <a href="/" class="nav-home">
+            <div class="nav-item">
                 <span class="nav-title">
                     返回主页
                 </span>
             </div>
         </a>
+    {% else %}
+        <div class="nav-item nav-home" id="random-page">
+            <span class="nav-title">
+                    随机页面
+            </span>
+        </div>
     {%- endif -%}
     {% for cat in site.categories %}
         {%- for tag in site.i18n -%}
@@ -62,3 +68,21 @@
             -- Repeat part (li) End   --
     -- Repeat part (nav-item) End   --
 {% endcomment %}
+<script src="/assets/js/libraries/random_page.js"></script>
+{% include variable.html %}
+<script>
+    'use strict';
+    var random_page=document.getElementById("random-page");
+    random_page.addEventListener("click",random_page);
+    var nav=document.querySelector("body > div.page-header-block > nav");
+    var ItemCount = nav.childElementCount;
+    for (let index = 0; index < ItemCount; index++){
+        const item = nav.children[index];
+        if(item.id != 'random-page') {
+            nav.children[index].itemList = getPageListForNav(item);
+            nav.children[index].children[0].addEventListener('click',randomPage);
+        }else{
+            nav.children[index].addEventListener('click',randomPage);
+        }
+    };
+</script>
