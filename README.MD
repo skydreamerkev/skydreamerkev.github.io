@@ -156,6 +156,7 @@ Some of the website source code that does not include the novels will be open so
 |title|网站标题|全站||
 |description|网站简介|全站||
 |theme|网站主题|全站||
+|i18n|分类翻译|nav.html|未登记的类别将被隐藏|
 
 ### Page元信息
 

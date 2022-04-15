@@ -1,53 +1,46 @@
-<link rel="stylesheet" href="/assets/css/nav.css" />
+<link href="/assets/css/nav.css" rel="stylesheet"/>
 <nav class="page-nav">
-    <!-- Constant start -->
-    <a href="/">
-    <div class="nav-item nav-home">
-        <span class="nav-title">
-            主页
-        </span>
-    </div>
-    </a>
-    <!-- Constant end -->
-  {% for cat in site.categories %}
-    {% if cat[0] != "hide" and cat[0] != "novel" %}
-        <div class="nav-item">
-            <span class="nav-title">
-                {% assign i18n = true %}
-                {%- for tag in site.i18n -%}
-                    {% if tag[0] == cat[0] %}
+    {%- if page.title != "主页" -%}
+        <a href="/">
+            <div class="nav-item nav-home">
+                <span class="nav-title">
+                    返回主页
+                </span>
+            </div>
+        </a>
+    {%- endif -%}
+    {% for cat in site.categories %}
+        {%- for tag in site.i18n -%}
+            {% if tag[0] == cat[0] %}
+                <div class="nav-item">
+                    <span class="nav-title">
                         {{ tag[1] }}
-                        {% assign i18n = false %}
-                        {% break %}
-                    {% endif %}
-                {%- endfor -%}
-                {% if i18n %}
-                    {{ cat[0] }}
-                {% endif %}
-            </span>
-            <div class="nav-spaceholder"></div>
-            <ul class="nav-list">
-                {% for post in cat[1] %}
-                    <li>
-                        <a href="{{ post.url }}">
-                            {% assign i18n = true %}
-                            {%- for tag in site.nav-shortname -%}
-                                {% if tag[0] == post.title %}
-                                    {{ tag[1] }}
-                                    {% assign i18n = false %}
-                                    {% break %}
-                                {% endif %}
-                            {%- endfor -%}
-                            {% if i18n %}
-                                {{ post.title }}
-                            {% endif %}
-                        </a>
-                    </li>
-                {% endfor %}
-            </ul>
-        </div>
-    {% endif %}
-  {% endfor %}
+                    </span>
+                    <div class="nav-spaceholder"></div>
+                    <ul class="nav-list">
+                        {% for post in cat[1] %}
+                            <li>
+                                <a href="{{ post.url }}">
+                                    {% assign i18n = true %}
+                                    {%- for tag in site.nav-shortname -%}
+                                        {% if tag[0] == post.title %}
+                                            {{ tag[1] }}
+                                            {% assign i18n = false %}
+                                            {% break %}
+                                        {% endif %}
+                                    {%- endfor -%}
+                                    {% if i18n %}
+                                        {{ post.title }}
+                                    {% endif %}
+                                </a>
+                            </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+                {% break %}
+            {% endif %}
+        {%- endfor -%}
+    {% endfor %}
 </nav>
 {% comment %}
     output:

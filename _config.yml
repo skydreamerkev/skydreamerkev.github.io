@@ -32,12 +32,14 @@ exclude:
  - README.MD
 
 i18n:
-  spark: 草案
-  novel: 小说
   writing: 正在创作
   trailers: 预告
   done: 已完成
   discuss: 杂谈
+  settings: 设定/世界观
+# hide: 隐藏
+# spark: 草案
+# novel: 小说
 
 nav-shortname:
   有关我的小说进度，Kurzgesagt和刘慈欣: 有关Kurzgesagt...
