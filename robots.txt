@@ -1,15 +1,96 @@
+Sitemap: https://farad314.github.io/sitemap.xml
+
 User-agent: *
 Disallow: /.hide$
 Disallow: /.md$
+Disallow: /.MD$
+Disallow: LICENCE
 Disallow: /googlefont/
 Disallow: /assets/image/
-Disallow: /2021/
-Disallow: /2022/
-Disallow: /2023/
-Disallow: /2024/
-Disallow: /2025/
-Disallow: /2026/
-Disallow: /2027/
-Disallow: /2028/
-Disallow: /2029/
-Disallow: /2030/
+Disallow: 404.html
+Disallow: /20*/
+
+User-agent: Googlebot-Image
+Disallow: /assets/image/.hide$
+Allow: /assets/image/
+
+User-agent: Googlebot
+Allow: /20*/done/
+
+User-agent: Bingbot
+Allow: /20*/done/
+
+User-agent: Slurp
+Allow: /20*/done/
+
+User-agent: Baiduspider
+Allow: /20*/done/
+
+User-agent: DuckDuckBot
+Allow: /20*/done/
+
+User-agent: Sogou web spider
+Allow: /20*/done/
+
+User-agent: Sosospider
+Allow: /20*/done/
+
+ser-agent: YodaoBot
+Allow: /20*/done/
+
+User-agent: 360Spider
+Allow: /20*/done/
+
+User-agent: YisouSpider
+Allow: /20*/done/
+
+User-agent: teoma
+Allow: /20*/done/
+
+User-agent: ia_archiver
+Allow: /20*/done/
+
+User-agent: twiceler
+Allow: /20*/done/
+
+User-agent: Robozilla
+Allow: /20*/done/
+
+User-agent: Gigabot
+Allow: /20*/done/
+
+User-agent: Mediapartners-Google
+Allow: /20*/done/
+
+User-agent: msnbot
+Allow: /20*/done/
+
+User-agent: yahoo-slurp
+Allow: /20*/done/
+
+User-agent: scrubby
+Allow: /20*/done/
+
+User-agent: nutch
+Allow: /20*/done/
+
+User-agent: naverbot
+Allow: /20*/done/
+
+User-agent: yeti
+Allow: /20*/done/
+
+User-agent: googlebot-mobile
+Allow: /20*/done/
+
+User-agent: yahoo-mmcrawler
+Allow: /20*/done/
+
+User-agent: psbot
+Allow: /20*/done/
+
+User-agent: asterias
+Allow: /20*/done/
+
+User-agent: yahoo-blogs
+Allow: /20*/done/
