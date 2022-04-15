@@ -30,6 +30,10 @@ defaults:
 
 exclude:
  - README.MD
+ - CONTRIBUTING.MD
+ - CODE_OF_CONDUCT.MD
+ - Gemfile
+ - Gemfile.lock
 
 i18n:
   writing: 正在创作
