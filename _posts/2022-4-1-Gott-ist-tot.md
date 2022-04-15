@@ -6,7 +6,7 @@ no-like: true
 author: 法拉
 locate: zh-CN
 categories:
- - writing
+ - settings
  - trailers
  - novel
 ---
