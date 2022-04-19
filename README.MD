@@ -22,9 +22,17 @@
 
 不包括作品在内的部分网站将在`framework`分支开源。
 
+已创建[`CONTRIBUTING.MD`](./CONTRIBUTING.MD)文件，其中已注明“任何形式的代码贡献皆为著作权侵权，包括但不限于创建分支(fork)，下载任何文件(download)，任何形式的再分发(redistributing)，作任何更改(modifying files)等”。如希望贡献请至仓库的`Discussions`区域申请。
+
+这些措施是为了防止极端情况，阻止他人贡献并不是我们的本意，实乃无奈之举。当我们有足够的资源后，我们会询问法律方面的专业人士，以寻找更好的解决方案。
+
 The LICENCE file of this repository has been removed to protect the copyright of the novels, and we reserved full copyright of all contents of this repository retain unless otherwise stated within the page.
 
 Some of the website source code that does not include the novels will be open sourced `framework` branch.
+
+A [`CONTRIBUTING.MD`](./CONTRIBUTING.MD) file has been created, which states that "Any form of contribution is a copyright infringement. Including but not limited to Fork repository, downloading, redistributing, modifying files, etc.".  If you wish to contribute, please apply in the `Discussions` section of the repository.
+
+These measures are designed to prevent extreme situations, and it is not our intention to prevent others from contributing. When we have enough resources, we will ask legal professionals to find a better solution.
 
 ### 有关 Issues 和 Discussions
 

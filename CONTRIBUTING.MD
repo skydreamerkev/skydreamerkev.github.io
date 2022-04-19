@@ -7,6 +7,6 @@ Since this project is a private project and Since this project is a private proj
 
 If any of the above conditions are not met, any form of contribution is a copyright infringement.
 
-Including but not limited to Fork repositories, downloading, redistributing, modifying files, etc.
+Including but not limited to Fork repository, downloading, redistributing, modifying files, etc.
 
 If you want to contribute, Please contact the [repository owner](https://github.com/farad314/).
