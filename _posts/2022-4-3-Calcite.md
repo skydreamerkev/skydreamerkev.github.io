@@ -1,6 +1,6 @@
 ---
 layout: novel
-title: 胶卷
+title: 方解石
 cc-type: cr
 no-like: true
 author: 法拉
