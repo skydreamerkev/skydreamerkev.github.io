@@ -43,9 +43,10 @@ i18n:
   done: 已完成
   discuss: 杂谈
   settings: 设定/世界观
+  shared: 共享草案
 # hide: 隐藏
 # spark: 草案
 # novel: 小说
 
 nav-shortname:
-  有关我的小说进度，Kurzgesagt和刘慈欣: 有关Kurzgesagt...
+  有关Kurzgesagt和刘慈欣: 有关Kurz和大刘
