@@ -1,0 +1,26 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "type": "shell",
+            "label": "jekyll build",
+            "command": "bundle",
+            "args": [
+                "exec",
+                "jekyll",
+                "build",
+                "--source",
+                "${cwd}",
+                "--config",
+                "_config.yml",
+                "--watch"
+            ],
+            "isBackground": true,
+            "promptOnClose": true,
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}

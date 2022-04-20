@@ -70,9 +70,13 @@
 {% endcomment %}
 <script src="/assets/js/libraries/random_page.js"></script>
 {% include variable.html %}
+{%- if page.title == "主页" -%}
+    <script>
+        document.getElementById("random-page").style.display="block";
+    </script>
+{%- endif -%}
 <script>
     'use strict';
-    document.getElementById("random-page").style.display="block";
     var nav=document.querySelector("body > div.page-header-block > nav");
     var ItemCount = nav.childElementCount;
     for (let index = 0; index < ItemCount; index++){
