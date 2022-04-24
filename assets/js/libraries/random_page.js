@@ -1,18 +1,35 @@
 'use strict';
 function randomPage(pageList = false) {
+    // defaults
     if (!pageList)
         if (pages) pageList = pages;
-        else throw ReferenceError('Page list is missing (Global)');
+        else throw ReferenceError('randomPage: Page list is missing (Global)');
     else if (pageList.type == "click")
-        if (pageList.pointerType != 'mouse' && this.itemList) return;
+        if (pageList.pointerType != 'mouse' && this.itemList) {
+            console.warn('randomPage: Its a non-pointer event, event info:', pageList);
+            console.warn("randomPage: Redirect has been rejected.");
+            return;
+        }
         if (this.itemList) pageList = this.itemList;
         else if (pages) {
             pageList = pages;
-            console.warn("This is not a global random button, but no random list was found");
+            console.warn("randomPage: This is not a global random button, but no page list found, event info:", pageList);
+            console.warn("randomPage: Using global page list in a non global request.");
         }
-        else throw ReferenceError('Page list is missing (Event)');
+    else throw ReferenceError('randomPage: Page list is missing (Event)');
+
+    // if empty
+    if (!pages.length) {
+        console.warn("randomPage: Empty page list, category might be empty.");
+        console.warn("randomPage: Redirect has been rejected.");
+        return;
+    }
+
+    // Read data
     if (localStorage.urls) var urls = JSON.parse(localStorage.urls);
     else var urls = [];
+
+    // main
     if (urls.length >= pages.length) urls = [];
     var url = pages[0];
     for (let i = 0; i < 8; i++) {
@@ -24,8 +41,13 @@ function randomPage(pageList = false) {
             break;
         }
     };
+
+    // Save data
     localStorage.urls = JSON.stringify(urls);
+
+    // redirect
     window.location.href = url;
+
     /*
     What does this function do:
         Randomly select the page eight times and visit the first page that has never been visited.
@@ -36,6 +58,7 @@ function randomPage(pageList = false) {
         In most cases, the pages will not appear twice, but there is still a small chance of drawing the same pages. Once all pages have been looked, it restart from the beginning.
     */
 };
+
 function getPageListForNav(navItem) {
     var rawList = navItem.children[2];
     var rawListLength = rawList.childElementCount;
