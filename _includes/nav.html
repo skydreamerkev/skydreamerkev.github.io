@@ -8,47 +8,56 @@
                 </span>
             </div>
         </a>
-    {% else %}
+    {%- else -%}
         <div class="nav-item nav-home" id="random-page">
             <span class="nav-title">
                     随机页面
             </span>
         </div>
     {%- endif -%}
-    {% for cat in site.categories %}
+    {%- for cat in site.categories -%}
         {%- for tag in site.i18n -%}
-            {% if tag[0] == cat[0] %}
+            {%- if tag[0] == cat[0] -%}
                 <div class="nav-item">
                     <span class="nav-title">
                         {{ tag[1] }}
                     </span>
                     <div class="nav-spaceholder"></div>
                     <ul class="nav-list">
-                        {% for post in cat[1] %}
+                        {%- for post in cat[1] -%}
+                            {%- assign flag = true -%}
+                            {%- for cate in post.categories -%}
+                                {%- if cate == "hide" -%}
+                                    {%- assign flag = false -%}
+                                    {%- break -%}
+                                {%- endif -%}
+                            {%- endfor -%}
+                            {%- if flag -%}
                             <li>
                                 <a href="{{ post.url }}">
-                                    {% assign i18n = true %}
+                                    {%- assign i18n = true -%}
                                     {%- for tag in site.nav-shortname -%}
-                                        {% if tag[0] == post.title %}
+                                        {%- if tag[0] == post.title -%}
                                             {{ tag[1] }}
-                                            {% assign i18n = false %}
-                                            {% break %}
-                                        {% endif %}
+                                            {%- assign i18n = false -%}
+                                            {%- break -%}
+                                        {%- endif -%}
                                     {%- endfor -%}
-                                    {% if i18n %}
+                                    {%- if i18n -%}
                                         {{ post.title }}
-                                    {% endif %}
+                                    {%- endif -%}
                                 </a>
                             </li>
-                        {% endfor %}
+                            {%- endif -%}
+                        {%- endfor -%}
                     </ul>
                 </div>
-                {% break %}
-            {% endif %}
+                {%- break -%}
+            {%- endif -%}
         {%- endfor -%}
-    {% endfor %}
+    {%- endfor -%}
 </nav>
-{% comment %}
+{%- comment -%}
     output:
     nav.page-nav
         a
@@ -67,9 +76,9 @@
                         < shorten title >
             -- Repeat part (li) End   --
     -- Repeat part (nav-item) End   --
-{% endcomment %}
+{%- endcomment -%}
 <script src="/assets/js/libraries/random_page.js"></script>
-{% include variable.html %}
+{%- include variable.html -%}
 {%- if page.title == "主页" -%}
     <script>
         document.getElementById("random-page").style.display="block";

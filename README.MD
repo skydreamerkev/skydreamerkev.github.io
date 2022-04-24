@@ -60,8 +60,10 @@ These measures are designed to prevent extreme situations, and it is not our int
   - [ ] ~~自动目录~~&nbsp;&nbsp;&nbsp;被导航栏代替
   - [ ] 佳作推荐
   - [x] 随机翻阅
+    - [ ] 去掉包含剧透文章
+    - [x] 去除隐藏文章
   - [x] 导航栏
-  - [ ] 显示写作时间
+  - [x] 显示写作时间
 - [ ] 界面
   - [ ] 重新设计
     - [ ] 主题

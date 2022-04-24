@@ -1,10 +1,20 @@
 <!-- site variables -->
 <script>
-    'use strict';
-    var pages = [""
-    {%- for post in site.posts -%}
-        ,"{{ post.url }}"
+  'use strict';
+  var pages = [""
+  {%- for post in site.posts -%}
+    {%- assign flag = true -%}
+    {%- for cat in post.categories -%}
+        {%- if cat == "hide" -%}
+            {%- assign flag = false -%}
+            {%- break -%}
+        {%- endif -%}
     {%- endfor -%}
-    ];
-    /* a list of all pages */
+    {%- if flag -%}
+        ,"{{ post.url }}"
+    {%- endif -%}
+  {%- endfor -%}
+  ];
+  pages.shift();
+  /* a list of non hidden pages */
 </script>
