@@ -28,7 +28,9 @@ Jekyll主题，为我们省去了大多数前期工作&nbsp;&nbsp;&nbsp;&nbsp;&n
 > [CMS Higgs-event.jpg](https://commons.wikimedia.org/wiki/File:CMS_Higgs-event.jpg)
 > -----
 
-网站图标的原图片&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;使用CC BY-SA 3.0协议&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;按照协议要求，我们将[我们修改的版本](\assets\image\CMS_Higgs-event.svg)公开于此
+网站图标的原图片&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;使用CC BY-SA 3.0协议
+
+按照协议要求，我们将[我们修改的版本](\assets\image\CMS_Higgs-event.svg)公开于此
 
 -----
 
