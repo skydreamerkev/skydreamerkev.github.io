@@ -138,6 +138,7 @@ These measures are designed to prevent extreme situations, and it is not our int
   - [ ] 收尾工作
     - [ ] 调整兼容性提示
     - [ ] Fork新分支`Pre-Release`
+    - [ ] 整理提交历史
 
 ### 内容相关
 

@@ -17,6 +17,9 @@ locate: zh-CN
 > [Netlify](https://www.netlify.com/) - 网站部署平台，提供了国内访问网站的方式&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;使用协议未知
 -----
 
+> [CMS Higgs-event.jpg](https://commons.wikimedia.org/wiki/File:CMS_Higgs-event.jpg) - 网站图标的原图片&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;使用CC BY-SA 3.0协议&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;按照协议要求，我们将[我们修改的版本](\assets\image\CMS_Higgs-event.svg)公开于此
+-----
+
 -----
 
 ## 声明（中文版）

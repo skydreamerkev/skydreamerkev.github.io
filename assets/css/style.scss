@@ -36,3 +36,19 @@
 ::-webkit-scrollbar-thumb:active {
   background-color: #787878;
 }
+
+/*/ Cursors (These are currently useless)
+body{
+  cursor: url('/assets/cursor/dark/pointer.png') 9 17, default;
+}
+:link{
+  cursor: url('/assets/cursor/dark/link.png') 17 12, pointer;
+}
+del{
+  cursor: url('/assets/cursor/dark/unavailable.png') 23 23, not-allowed;
+}
+
+div > div.highlight{
+  background: none;
+}
+/**/
