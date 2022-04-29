@@ -13,7 +13,8 @@
                 "${cwd}",
                 "--config",
                 "_config.yml",
-                "--watch"
+                "--watch",
+                "--incremental"
             ],
             "isBackground": true,
             "promptOnClose": true,

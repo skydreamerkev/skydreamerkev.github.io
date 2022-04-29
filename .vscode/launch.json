@@ -12,7 +12,8 @@
             "file": "F:/index.html",
             "skipFiles": [
                 "<node_internals>/**",
-                "/extensions/**"
+                "/extensions/**",
+                "edge://**"
             ]
         }
     ]

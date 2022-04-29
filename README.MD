@@ -64,6 +64,8 @@ These measures are designed to prevent extreme situations, and it is not our int
     - [x] 去除隐藏文章
   - [x] 导航栏
   - [x] 显示写作时间
+  - [ ] Web App支持
+    - [ ] 特别优化
 - [ ] 界面
   - [ ] 重新设计
     - [ ] 主题
@@ -86,6 +88,9 @@ These measures are designed to prevent extreme situations, and it is not our int
   - [ ] 前后端连接
 - [ ] 协议
   - [ ] 确定Framework法律风险
+- [ ] 可维护性
+  - [ ] 日志收集器
+    - [ ] 隐私保护弹窗
 
 #### 重构
 
@@ -223,5 +228,5 @@ cc-type可用值列表：["by","by-sa","by-nd","by-nc","by-nc-sa","by-nc-nd","cr
 |版式名|版式用途|使用范围|备注|
 |:---|:---|:---|:---|
 |default|默认排版|无||
-|functional|功能性页面使用的模板|主页，关于|目前与default一致|
+|functional|功能性页面使用的模板|主页，关于||
 |novel|小说页模板，自动正文首行缩进，带推荐功能|小说页||
