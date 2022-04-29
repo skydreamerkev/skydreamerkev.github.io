@@ -19,7 +19,7 @@
         {%- for tag in site.i18n -%}
             {%- if tag[0] == cat[0] -%}
                 <div class="nav-item">
-                    <span class="nav-title">
+                    <span class="nav-title" id="{{ cat[0] }}">
                         {{ tag[1] }}
                     </span>
                     <div class="nav-spaceholder"></div>
