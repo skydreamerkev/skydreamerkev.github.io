@@ -13,6 +13,7 @@ Disallow: /googlefont/
 Disallow: /assets/image/
 Disallow: 404.html
 Disallow: /20*/
+Disallow: /theCakeIsALie/
 
 User-agent: Googlebot-Image
 Disallow: /assets/image/.hide$
