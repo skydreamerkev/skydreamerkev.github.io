@@ -10,7 +10,7 @@ locate: zh-CN
 categories:
  - spark
  - novel
- - shared
+ - hide
 ---
 
 互联网把人们拉近，史无前例地改变了人们的生活。这种影响之大，以至于人类的感官还没能适应
