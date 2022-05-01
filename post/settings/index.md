@@ -1,8 +1,10 @@
 ---
 layout: functional
-title: “小说”类别目录
+title: “设定”类别目录
 hide-like: true
 locate: zh-CN
-cat: done
+cat: settings
+no-cc: true
+no-like: true
 ---
 {% include profiles/index.html %}
