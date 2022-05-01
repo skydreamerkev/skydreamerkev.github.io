@@ -6,7 +6,6 @@ locale: zh-CN
 author: 法拉
 plugins: [jekyll-sitemap]
 timezone: Asia/Shanghai
-markdown: GFM
 sass:
   style: compressed
 
