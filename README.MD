@@ -3,7 +3,6 @@
 [![Jekyll-theme-cayman](https://img.shields.io/badge/Jekyll_theme-cayman-159957)](https://pages-themes.github.io/cayman/)
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/farad314/farad314.github.io)
 [![GitHub commit activity](https://img.shields.io/github/commit-activity/w/farad314/farad314.github.io/main?label=Updates)](https://github.com/farad314/farad314.github.io/tree/main/)
-![GitHub issues](https://img.shields.io/github/issues/farad314/farad314.github.io)
 [![Code Factor](https://img.shields.io/codefactor/grade/github/farad314/farad314.github.io/main)](https://www.codefactor.io/repository/github/farad314/farad314.github.io/)
 
 [![GitHub Pages deployments](https://img.shields.io/github/deployments/farad314/farad314.github.io/github-pages?label=Pages%20deploy)](https://github.com/farad314/farad314.github.io/deployments?environment=github-pages)
@@ -67,7 +66,7 @@ These measures are designed to prevent extreme situations, and it is not our int
   - [ ] Web App支持
     - [ ] 特别优化
 - [ ] 界面
-  - [ ] 重新设计
+  - [ ] 重新设计&nbsp;&nbsp;&nbsp;已在日程中
     - [ ] 主题
     - [ ] 色彩系统
     - [ ] 辅助元素
@@ -75,6 +74,15 @@ These measures are designed to prevent extreme situations, and it is not our int
     - [ ] 图标风格
     - [ ] 着色规则
     - [ ] 装饰图像
+  - [ ] 新设计实现
+    - [ ] `Cayman`移入
+      - [ ] 所有相关代码移入同一文件夹
+      - [ ] 复制需要保留的代码
+      - [ ] 删除没用的/被覆盖的代码
+    - [ ] HTML修改
+    - [ ] 样式表
+  - [ ] 新layout
+    - [ ] 文件详情页
   - [ ] 优化
     - [ ] 标题防溢出机制
     - [ ] header翻页动画

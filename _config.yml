@@ -6,6 +6,7 @@ locale: zh-CN
 author: 法拉
 plugins: [jekyll-sitemap]
 timezone: Asia/Shanghai
+markdown: GFM
 sass:
   style: compressed
 
@@ -24,7 +25,7 @@ defaults:
       author: 法拉
       locate: zh-CN
       cc-type: by-nc-sa
-      permalink: /:year/:categories/:title/
+      permalink: /post/:categories/:year/:title/
   - scope:
       path: ""
     values:
