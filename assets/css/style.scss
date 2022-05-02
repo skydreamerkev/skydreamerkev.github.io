@@ -37,6 +37,10 @@
   background-color: #787878;
 }
 
+.main-content pre.highlight>code{
+  font-family: Consolas, 'Courier New', Arial, 'Microsoft JhengHei' , 'Microsoft YaHei', monospace;
+}
+
 /*/ Cursors (These are currently useless)
 body{
   cursor: url('/assets/cursor/dark/pointer.png') 9 17, default;

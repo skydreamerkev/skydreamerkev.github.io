@@ -48,7 +48,10 @@
     background-color: rgb(32, 35, 37);
     border-color: initial;
   }
-  pre.highlight{
+  .main-content pre.highlight{
     background: #272932;
+  }
+  div.highlight{
+    background: none;
   }
 }
