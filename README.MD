@@ -33,6 +33,10 @@ A [`CONTRIBUTING.MD`](./CONTRIBUTING.MD) file has been created, which states tha
 
 These measures are designed to prevent extreme situations, and it is not our intention to prevent others from contributing. When we have enough resources, we will ask legal professionals to find a better solution.
 
+### 仓库即将迁移
+
+仓库即将转让给`"法拉灵感社"网站维护团队`Github账号，届时链接将会发生变化
+
 ### 有关 Issues 和 Discussions
 
 代码库的Issues区仅用于报告网页渲染和脚本的bug，
