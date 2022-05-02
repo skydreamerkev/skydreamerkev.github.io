@@ -15,6 +15,11 @@
 
 ## 写在前面
 
+### 仓库即将迁移
+
+仓库即将转让给`"法拉灵感社"网站维护团队`Github账号，暂时停止仓库更新。
+届时将采用新的自制主题`Collider`，并改进大部分已知问题。
+
 ### 此仓库的LICENCE文件已删除 The LICENCE file of this repository has been removed
 
 为保护作品著作权，此仓库的LICENCE文件已删除，除非网页内额外声明，否则此仓库的所有内容保留完整著作权。
@@ -32,10 +37,6 @@ Some of the website source code that does not include the novels will be open so
 A [`CONTRIBUTING.MD`](./CONTRIBUTING.MD) file has been created, which states that "Any form of contribution is a copyright infringement. Including but not limited to Fork repository, downloading, redistributing, modifying files, etc.".  If you wish to contribute, please apply in the `Discussions` section of the repository.
 
 These measures are designed to prevent extreme situations, and it is not our intention to prevent others from contributing. When we have enough resources, we will ask legal professionals to find a better solution.
-
-### 仓库即将迁移
-
-仓库即将转让给`"法拉灵感社"网站维护团队`Github账号，届时链接将会发生变化
 
 ### 有关 Issues 和 Discussions
 

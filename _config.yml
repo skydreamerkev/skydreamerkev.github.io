@@ -36,6 +36,7 @@ exclude:
  - CODE_OF_CONDUCT.MD
  - Gemfile
  - Gemfile.lock
+ - temp
 
 i18n:
   writing: 正在创作
