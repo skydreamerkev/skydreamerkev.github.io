@@ -69,7 +69,7 @@ These measures are designed to prevent extreme situations, and it is not our int
   - [ ] 重新设计&nbsp;&nbsp;&nbsp;已在日程中
     - [ ] 主题
     - [ ] 色彩系统
-    - [ ] 辅助元素
+    - [x] [辅助元素](https://github.com/farad314/farad314.github.io/tree/main/assets/theme/Collider/image/icon/particle/full-color/original.svg)
     - [ ] Logo
     - [ ] 图标风格
     - [ ] 着色规则
