@@ -6,7 +6,7 @@
       }}
     </h1>
     <h2 class="project-tagline">
-      {%if page.cc-type == "cr" %}
+      {%if page.cc-type == "cr" and page.layout == "novel" %}
       本文保留完整著作权，禁止二次创作与再分发，详见页尾。 {% else %} {{
       page.description | default: site.description | default:
       site.github.project_tagline }} {% endif %}
