@@ -37,7 +37,7 @@ understanding one set of front end or back end is sufficient.
 
 但我们也在学习，若对编程有一定基础，只能满足以上大部分要求的仍可以[通过此邮箱(faradsInspiring@163.com)](mailto:faradsInspiring@163.com)联系我们。
 
-But we are also learning, if you have some basic knowledge of programming and can only meet most of the above requirements, you can still contact us [via this email (faradsInspiring@163.com)].(mailto:faradsInspiring@163.com)
+But we are also learning, if you have some basic knowledge of programming and can only meet most of the above requirements, you can still contact us [via this email (faradsInspiring@163.com)](mailto:faradsInspiring@163.com).
 
 ## 加入 Spakus 设计团队
 
