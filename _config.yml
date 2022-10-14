@@ -1,9 +1,9 @@
 theme: jekyll-theme-cayman
 
-title: 法拉的小说
-description: 法拉的小说
-locale: zh-CN
-author: 法拉
+title: Zhixingzhehui (association of learners)
+description: Zhixingzhehui (association of learners)
+locale: en-US
+author: Zhixingzhehui (association of learners)
 plugins: [jekyll-sitemap]
 timezone: Asia/Shanghai
 sass:
@@ -21,10 +21,10 @@ defaults:
       path: "_posts"
     values:
       layout: "novel"
-      author: 法拉
-      locate: zh-CN
-      cc-type: by-nc-sa
-      permalink: /post/:categories/:year/:title/
+      author: Zhixingzhehui (association of learners)
+      locate: en-US
+      cc-type: by-nc
+      permalink: /post/:categories/:title/
   - scope:
       path: ""
     values:
@@ -39,15 +39,9 @@ exclude:
  - temp
 
 i18n:
-  writing: 正在创作
-  trailers: 预告
-  done: 已完成
-  discuss: 杂谈
-  settings: 设定/世界观
-  shared: 共享草案
-# hide: 隐藏
-# spark: 草案
-# novel: 小说
+  About us: 关于我们
+  Book intro: 书本介绍
+  Reading list: 书单推荐
+  Spotlight: 集锦分享
 
 nav-shortname:
-  有关Kurzgesagt和刘慈欣: 有关Kurz和大刘

@@ -1,9 +1,9 @@
 ---
 layout: functional
-title: “已完成”类别目录
+title: “书本介绍”类别目录
 hide-like: true
 locate: zh-CN
-cat: done
+cat: Book intro
 no-cc: true
 no-like: true
 ---

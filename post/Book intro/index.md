@@ -1,9 +1,8 @@
 ---
 layout: functional
-title: “杂谈”类别目录
+title: Category "Book info"
 hide-like: true
-locate: zh-CN
-cat: discuss
+cat: Book info
 no-cc: true
 no-like: true
 ---

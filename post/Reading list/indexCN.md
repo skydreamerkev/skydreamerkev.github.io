@@ -1,9 +1,9 @@
 ---
 layout: functional
-title: “预告”类别目录
+title: “书单推荐”类别目录
 hide-like: true
 locate: zh-CN
-cat: trailers
+cat: Reading list
 no-cc: true
 no-like: true
 ---

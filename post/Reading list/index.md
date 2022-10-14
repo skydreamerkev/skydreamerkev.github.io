@@ -1,9 +1,8 @@
 ---
 layout: functional
-title: “设定”类别目录
+title: Category "Reading list"
 hide-like: true
-locate: zh-CN
-cat: settings
+cat: Reading list
 no-cc: true
 no-like: true
 ---
