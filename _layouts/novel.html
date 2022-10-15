@@ -25,7 +25,7 @@
     <main id="content" class="main-content" role="main">
       {{ content }}
       <footer class="site-footer">
-        <p id="novel-modtime">最后编辑于{{ page.date }}</p>
+        <p id="novel-modtime">{%- if page.locate == "zh-CN" -%}最后编辑于{%- else -%}Last edited at&ensp;{%- endif -%}{{ page.date }}</p>
         <script>
           modtime = document.getElementById("novel-modtime");
           modtime.innerText = modtime.innerText.replace(/ (\d{1,2}(:| )){3,3}\+\d{1,4}/,"")

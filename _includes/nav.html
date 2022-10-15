@@ -9,6 +9,7 @@
             </div>
         </a>
     {%- endif -%}
+    {%- if page.locate == "zh-CN" -%}
     {%- for cat in site.categories -%}
         {%- for tag in site.i18n -%}
             {%- if tag[0] == cat[0] -%}
@@ -50,6 +51,47 @@
             {%- endif -%}
         {%- endfor -%}
     {%- endfor -%}
+    {%- else -%}
+    {%- for cat in site.categories -%}
+                <div class="nav-item">
+                    <span class="nav-title" id="{{ cat[0] }}">
+                        {{ cat[1] }}
+                    </span>
+                    <div class="nav-spaceholder"></div>
+                    <ul class="nav-list">
+                        {%- for post in cat[1] -%}
+                            {%- assign flag = true -%}
+                            {%- for cate in post.categories -%}
+                                {%- if cate == "hide" -%}
+                                    {%- assign flag = false -%}
+                                    {%- break -%}
+                                {%- endif -%}
+                            {%- endfor -%}
+                            {%- if flag -%}
+                            <li>
+                                <a href="{{ post.url }}">
+                                    {%- assign i18n = true -%}
+                                    {%- for tag in site.nav-shortname -%}
+                                        {%- if tag[0] == post.title -%}
+                                            {{ tag[1] }}
+                                            {%- assign i18n = false -%}
+                                            {%- break -%}
+                                        {%- endif -%}
+                                    {%- endfor -%}
+                                    {%- if i18n -%}
+                                        {{ post.title }}
+                                    {%- endif -%}
+                                </a>
+                            </li>
+                            {%- endif -%}
+                        {%- endfor -%}
+                    </ul>
+                </div>
+                {%- break -%}
+            {%- endif -%}
+        {%- endfor -%}
+    {%- endfor -%}
+    {%- endif -%}
 </nav>
 {%- comment -%}
     output:
