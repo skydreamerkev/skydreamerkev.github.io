@@ -6,5 +6,7 @@ locate: zh-CN
 cat: Book intro
 no-cc: true
 no-like: true
+categories:
+ - Book intro
 ---
 {% include profiles/index.html %}
