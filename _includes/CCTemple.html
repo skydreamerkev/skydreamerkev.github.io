@@ -30,7 +30,7 @@
     >
 {%- if page.locate == "zh-CN" -%}{{ page.cc-name | default: "本文" }}{%- else -%}{{ page.cc-name | default: "This article" }}{%- endif -%}
 
-    </a> is
+    </a>{%- unless page.no-cc -%}&ensp;is{%- endunless -%}
     {% endif %}{%- if page.locate == "zh-CN" -%}使用{%- else -%}&ensp;licensed under{%- endif -%}
     <a
       href="http://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh?ref=chooser-v1"
