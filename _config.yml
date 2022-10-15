@@ -6,6 +6,7 @@ locale: en-US
 author: Zhixingzhehui (association of learners)
 plugins: [jekyll-sitemap]
 timezone: Asia/Shanghai
+future: true
 sass:
   style: compressed
 
