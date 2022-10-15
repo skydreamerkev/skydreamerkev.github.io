@@ -1,19 +1,3 @@
----
-layout: functional
-title: 主页
-locate: zh-CN
----
+Zhixingzhehui（association of learners）an intercollegiate student organization that exists with an orderly organizational system and a free and loose scope of discussion.
 
-索引已完成，主页索引链接失效。内容将在近期补充。
-
-奇怪的提示信息
------
-
-```bash
-$ 蛋糕是个谎言
-蛋糕是个谎言:command not found
-$ help 蛋糕是个谎言
-help: wrong "language" may be used
-$ help 蛋糕是个谎言
-help: try "lower camel case" in "link text"
-```
+This association is committed to promoting non-utilitarian reading and promoting it as a new way of learning and way of life. The Association is also committed to the popularization and dissemination of knowledge, as well as some values that are above all else in academia and in life: freedom, equality, and win-win.
