@@ -18,7 +18,11 @@
     {%- endif -%}
 {%- endfor -%}
 {%- if nocat -%}
-> ***服务器错误***: 类别目录不存在，请联系[站长](/about/farad.html)。
+{%- if page.locate == "zh-CN" -%}
+此类别下没有文章。
+{%- else -%}
+There are no posts under this category.
+{%- endif -%}
 <script>
     // Report error
     console.error("server: category not find");

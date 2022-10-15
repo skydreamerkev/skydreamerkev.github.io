@@ -17,17 +17,21 @@
     xmlns:cc="http://creativecommons.org/ns#"
     xmlns:dct="http://purl.org/dc/terms/"
   >
-    {% if page.layout == "functional" %} 若无额外声明，
-    <a property="dct:title" rel="cc:attributionURL" href="/"> 本站 </a
-    >内所有文字/图像/声音/视频 均 {% else %}
+    {% if page.layout == "functional" %}
+{%- if page.locate == "zh-CN" -%}若无额外声明，{%- else -%}All text/images/sound/video in {%- endif -%}
+    <a property="dct:title" rel="cc:attributionURL" href="/">
+{%- if page.locate == "zh-CN" -%} 本站 {%- else -%}this site{%- endif -%}</a
+    > {%- if page.locate == "zh-CN" -%}内所有文字/图像/声音/视频 均 {%- else -%} are{%- endif -%}
+{% else %}
     <a
       property="dct:title"
       rel="cc:attributionURL"
       href="{{ page.cc-link | default: page.url }}"
     >
-      {{ page.cc-name | default: "本文" }}
-    </a>
-    {% endif %}采用
+{%- if page.locate == "zh-CN" -%}{{ page.cc-name | default: "本文" }}{%- else -%}{{ page.cc-name | default: "This article" }}{%- endif -%}
+
+    </a> is
+    {% endif %} licensed under
     <a
       href="http://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh?ref=chooser-v1"
       target="_blank"
@@ -62,9 +66,12 @@
         />
       </span>
     </a>
-    协议进行授权。
+{%- if page.locate == "zh-CN" -%} 协议进行授权。{%- else -%}{% if page.layout == "functional" %}  if not otherwise specified. {%- endif -%}{%- endif -%}
+
+
+
     <span class="printonly">
-      要查看此许可证的副本，请访问
+      {%- if page.locate == "zh-CN" -%}要查看此许可证的副本，请访问{%- else -%}To view a copy of this license, please visit {%- endif -%}
       <span id="cc-link"></span>
     </span>
   </p>

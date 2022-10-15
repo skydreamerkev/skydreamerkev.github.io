@@ -1,17 +1,11 @@
-
 <link rel="stylesheet" href="/assets/css/header.css">
 <header class="page-header" role="banner">
-
   <h1 class="project-name">
     {{ page.title | default: site.title | default: site.github.repository_name }}
   </h1>
   <h2 class="project-tagline">
-    {%if page.cc-type == "cr" %}
-      本文保留完整著作权，禁止二次创作与再分发，详见页尾。
-    {% else %}
       {{ page.description | default: site.description | default:
       site.github.project_tagline }}
-    {% endif %}
   </h2>
 </header>
 

@@ -1,30 +1,13 @@
-<h2 id="footnote-title">脚注</h2>
+<h2 id="footnote-title"></h2>
 <div id="footnotes-target"></div>
 <script src="/assets/js/footnotesMover.js"></script>
-<a href="/about/">
-    关于本站
+<a  class="no-print" href="/about/">
+    {%- if page.locate == "zh-CN" -%}关于本站{%- else -%}About this site{%- endif -%}
 </a>
 &nbsp;&nbsp;&nbsp;
-<a href="/about/farad.html">
-    关于 Farad
+<a class="no-print" href="/about/#Powered-by-Jekyll">
+    {%- if page.locate == "zh-CN" -%}此页面使用 Jekyll 生成{%- else -%}This page is generated with Jekyll{%- endif -%}
 </a>
-&nbsp;&nbsp;&nbsp;
-<a href="/about/#Powered-by-Jekyll">
-    此页面使用 Jekyll 生成
-</a>
-&nbsp;&nbsp;&nbsp;
-<a href="/about/#Powered-by-Jekyll" id="Netlify-statement">
-  由 Netlify 提供国内节点
-</a>
-<script>
-  if (window.location.href.search("netlify.app") != -1)
-    document.getElementById("Netlify-statement").style.display = "inline";
-</script>
 {% unless page.no-cc %}
     {% include CCTemple.html %}
 {% endunless %}
-<style>
-  #Netlify-statement {
-    display: none;
-  }
-</style>

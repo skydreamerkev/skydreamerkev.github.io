@@ -6,7 +6,7 @@
     {% include defaultHead.html %}
     <!-- This is to prevent errors from being reported in the editor -->
     <script src="/assets/js/compatibility_tips.js"></script>
-    <title>法拉的小说</title>
+    <title>Zhixingzhehui (association of learners)</title>
   </head>
   <body>
     {% if page.no-nav %}
@@ -17,8 +17,13 @@
     <main id="content" class="main-content" role="main">
       <noscript>
         <blockquote>
-          注意：脚本可能已被禁用<br />
-          在本站中，脚本负责处理大多数页面逻辑，如禁用脚本，部分功能将无法正常工作。
+          {%- if page.locate == "zh-CN" -%}
+            注意：脚本可能已被禁用<br />
+            在本站中，脚本负责处理大多数页面逻辑，如禁用脚本，部分功能将无法正常工作。
+          {%- else -%}
+            Note: Scripts may have been disabled<br />
+            In this site, scripts are responsible for most of the page logic. If scripts are disabled, some functions will not work properly.
+          {%- endif -%}
         </blockquote>
       </noscript>
       {{ content }}
