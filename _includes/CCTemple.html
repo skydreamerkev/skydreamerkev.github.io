@@ -71,13 +71,13 @@
 
 
     <span class="printonly">
-      {%- if page.locate == "zh-CN" -%}要查看此许可证的副本，请访问{%- else -%}To view a copy of this license, please visit {%- endif -%}
+      {%- if page.locate == "zh-CN" -%}要查看此许可证的副本，请访问{%- else -%}To view a copy of this license, please visit&ensp;{%- endif -%}
       <span id="cc-link"></span>
     </span>
   </p>
   <script>
     document.getElementById("ccblock").style.display="block";
-    cctype = '{{ page.cc-type | "by-nc-sa" }}';
+    cctype = '{{ page.cc-type | "by-sa" }}';
 
     // Filter invalid types
     if (
